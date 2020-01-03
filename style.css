@@ -37,14 +37,14 @@ a:visited {
   margin-bottom: 25px;
   text-align: center;
   background-color: d3d3d3;
-  height: 97vh;
 }
 .row {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   width: 100%;
-  margin: 10px
+  margin: 10px;
+  height: 97vh;
 }
 .column {
   text-align:left;
