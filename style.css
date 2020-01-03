@@ -3,11 +3,13 @@
   max-width: 1500px;
   margin: auto;
   background-color: F4F4F4;
-  height: 75vh;
+  max-height: 95vh;
+  max-width: 95vw;
+  /*overflow: auto;*/
 }
 
 .header{
-  height = 20vh;
+
 }
 
 body {
