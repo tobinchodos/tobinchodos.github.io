@@ -52,11 +52,9 @@ a:visited {
   flex-basis: 100%;
   flex: 1;
   padding:0 15px;
-  height: 97vh;
   min-width: 450px;
 }
 
 .white-column {
    background: e5e2e1;
-   height: 97vh;
 }
