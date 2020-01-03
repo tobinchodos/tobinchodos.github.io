@@ -1,16 +1,29 @@
-.page-wrapper {
-  margin: 10px;
-  max-width: 1500px;
-  margin: auto;
-  background-color: F4F4F4;
-  max-height: 95vh;
-  max-width: 95vw;
-  /*font-size: .9vw;*/
-  /*overflow: auto;*/
+@media screen and (min-width: 601px) {
+  .page-wrapper {
+    margin: 10px;
+    margin: auto;
+    background-color: F4F4F4;
+    max-height: 95vh;
+    max-width: 95vw;
+    font-size: .80vw;
+  }
+
+}
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 600px) {
+  .page-wrapper {
+    margin: 10px;
+    margin: auto;
+    background-color: F4F4F4;
+    max-height: 95vh;
+    max-width: 95vw;
+    font-size: .05vw;
+  }
 }
 
 .header{
-/*font-size: .95vw;*/
+font-size: .62vw;
 }
 
 body {
