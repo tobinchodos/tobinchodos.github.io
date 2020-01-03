@@ -1,3 +1,11 @@
+.page-wrapper {
+  margin: 10px;
+  margin: auto;
+  background-color: F4F4F4;
+  height: auto;
+  width: auto;
+  font-size: .05vw;
+}
 
 body {
   background-color: F4F4F4;
@@ -40,6 +48,7 @@ a:visited {
   flex-direction: column;
   flex-basis: 100%;
   flex: 1;
+  width: auto;
 }
 
 .white-column {
