@@ -7,6 +7,10 @@
     max-width: 95vw;
     font-size: .80vw;
   }
+  .header{
+  font-size: .62vw;
+  }
+
 
 }
 
@@ -20,23 +24,37 @@
     max-width: 95vw;
     font-size: .05vw;
   }
+  .header{
+  font-size: .62vw;
+  }
+
 }
 
 @media only screen and (max-device-width: 480px) {
-  .page-wrapper {
-    margin: 10px;
-    margin: auto;
-    width: 400px;
-    background-color: F4F4F4;
-    max-height: auto;
-    max-width: auto;
-    font-size: auto;
-  }
-    }
+        div#wrapper {
+            width: 400px;
+        }
 
-.header{
-font-size: .62vw;
-}
+        div#header {
+            background-image: url(media-queries-phone.jpg);
+            height: 93px;
+            position: relative;
+        }
+
+        div#header h1 {
+            font-size: 140%;
+        }
+
+        #content {
+            float: none;
+            width: 100%;
+        }
+
+        #navigation {
+            float:none;
+            width: auto;
+        }
+    }
 
 body {
   background-color: F4F4F4;
