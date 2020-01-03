@@ -26,6 +26,7 @@
   .page-wrapper {
     margin: 10px;
     margin: auto;
+    width: 400px;
     background-color: F4F4F4;
     max-height: auto;
     max-width: auto;
