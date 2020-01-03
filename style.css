@@ -3,7 +3,11 @@
   max-width: 1500px;
   margin: auto;
   background-color: F4F4F4;
-  height: 97vh;
+  height: 75vh;
+}
+
+header{
+  height = 20vh;
 }
 
 body {
