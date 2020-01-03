@@ -3,13 +3,14 @@
   max-width: 1500px;
   margin: auto;
   background-color: F4F4F4;
+  height: 10vh;
 }
 
 body {
   background-color: F4F4F4;
   font-family: 'Avenir Black', 'Arial Black', sans-serif;
-  height: 10vh;
 }
+
 ul {
  list-style-type: none;
 }
