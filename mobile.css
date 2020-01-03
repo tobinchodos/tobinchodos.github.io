@@ -1,0 +1,47 @@
+
+body {
+  background-color: F4F4F4;
+  font-family: 'Avenir Black', 'Arial Black', serif;
+}
+
+ul {
+ list-style-type: none;
+}
+li{
+  margin: 10px;
+}
+
+a:link {
+  color: 446afa;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: 8b0000;
+}
+
+.header{
+  text-align: center;
+}
+
+.column_head{
+  text-align: center;
+  background-color: d3d3d3;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.column {
+  text-align:left;
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+}
+
+.white-column {
+   background: e5e2e1;
+}
