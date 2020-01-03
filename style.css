@@ -3,14 +3,14 @@
   max-width: 1500px;
   margin: auto;
   background-color: F4F4F4;
-  max-height: 90vh;
-  max-width: 90vw;
-  font-size: .9vw;
+  max-height: 95vh;
+  max-width: 95vw;
+  /*font-size: .9vw;*/
   /*overflow: auto;*/
 }
 
 .header{
-font-size: .95vw;
+/*font-size: .95vw;*/
 }
 
 body {
