@@ -3,18 +3,19 @@
   max-width: 1500px;
   margin: auto;
   background-color: F4F4F4;
-  max-height: 95vh;
-  max-width: 95vw;
+  max-height: 90vh;
+  max-width: 90vw;
+  font-size: .9vw;
   /*overflow: auto;*/
 }
 
 .header{
-
+font-size: .95vw;
 }
 
 body {
   background-color: F4F4F4;
-  font-family: 'Avenir Black', 'Arial Black', sans-serif;
+  font-family: 'Avenir Black', 'Arial Black', serif;
 }
 
 ul {
