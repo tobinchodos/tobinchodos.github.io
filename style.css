@@ -22,6 +22,17 @@
   }
 }
 
+@media only screen and (max-device-width: 480px) {
+  .page-wrapper {
+    margin: 10px;
+    margin: auto;
+    background-color: F4F4F4;
+    max-height: auto;
+    max-width: auto;
+    font-size: auto;
+  }
+    }
+
 .header{
 font-size: .62vw;
 }
