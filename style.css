@@ -30,15 +30,6 @@
 
 }
 
-@media only screen and (max-device-width: 480px) {
-  .page-wrapper {
-    margin: 10px;
-    margin: auto;
-    background-color: F4F4F4;
-    font-size: auto;
-  }
-    }
-
 body {
   background-color: F4F4F4;
   font-family: 'Avenir Black', 'Arial Black', serif;
