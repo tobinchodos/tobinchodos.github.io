@@ -1,0 +1,1012 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <meta charset="utf-8" />
+      <title>coursepage</title>
+      <style>.markdown-preview:not([data-use-github-style]) { padding: 2em; font-size: 1.2em; color: rgb(171, 178, 191); overflow: auto; background-color: rgb(40, 44, 52); }
+.markdown-preview:not([data-use-github-style]) > :first-child { margin-top: 0px; }
+.markdown-preview:not([data-use-github-style]) h1, .markdown-preview:not([data-use-github-style]) h2, .markdown-preview:not([data-use-github-style]) h3, .markdown-preview:not([data-use-github-style]) h4, .markdown-preview:not([data-use-github-style]) h5, .markdown-preview:not([data-use-github-style]) h6 { line-height: 1.2; margin-top: 1.5em; margin-bottom: 0.5em; color: rgb(255, 255, 255); }
+.markdown-preview:not([data-use-github-style]) h1 { font-size: 2.4em; font-weight: 300; }
+.markdown-preview:not([data-use-github-style]) h2 { font-size: 1.8em; font-weight: 400; }
+.markdown-preview:not([data-use-github-style]) h3 { font-size: 1.5em; font-weight: 500; }
+.markdown-preview:not([data-use-github-style]) h4 { font-size: 1.2em; font-weight: 600; }
+.markdown-preview:not([data-use-github-style]) h5 { font-size: 1.1em; font-weight: 600; }
+.markdown-preview:not([data-use-github-style]) h6 { font-size: 1em; font-weight: 600; }
+.markdown-preview:not([data-use-github-style]) strong { color: rgb(255, 255, 255); }
+.markdown-preview:not([data-use-github-style]) del { color: rgb(124, 135, 156); }
+.markdown-preview:not([data-use-github-style]) a, .markdown-preview:not([data-use-github-style]) a code { color: rgb(82, 139, 255); }
+.markdown-preview:not([data-use-github-style]) img { max-width: 100%; }
+.markdown-preview:not([data-use-github-style]) > p { margin-top: 0px; margin-bottom: 1.5em; }
+.markdown-preview:not([data-use-github-style]) > ul, .markdown-preview:not([data-use-github-style]) > ol { margin-bottom: 1.5em; }
+.markdown-preview:not([data-use-github-style]) blockquote { margin: 1.5em 0px; font-size: inherit; color: rgb(124, 135, 156); border-color: rgb(75, 83, 98); border-width: 4px; }
+.markdown-preview:not([data-use-github-style]) hr { margin: 3em 0px; border-top: 2px dashed rgb(75, 83, 98); background: none; }
+.markdown-preview:not([data-use-github-style]) table { margin: 1.5em 0px; }
+.markdown-preview:not([data-use-github-style]) th { color: rgb(255, 255, 255); }
+.markdown-preview:not([data-use-github-style]) th, .markdown-preview:not([data-use-github-style]) td { padding: 0.66em 1em; border: 1px solid rgb(75, 83, 98); }
+.markdown-preview:not([data-use-github-style]) code { color: rgb(255, 255, 255); background-color: rgb(58, 63, 75); }
+.markdown-preview:not([data-use-github-style]) pre.editor-colors { margin: 1.5em 0px; padding: 1em; font-size: 0.92em; border-radius: 3px; background-color: rgb(49, 54, 63); }
+.markdown-preview:not([data-use-github-style]) kbd { color: rgb(255, 255, 255); border-width: 1px 1px 2px; border-style: solid; border-color: rgb(75, 83, 98) rgb(75, 83, 98) rgb(62, 68, 81); background-color: rgb(58, 63, 75); }
+.markdown-preview[data-use-github-style] { font-family: "Helvetica Neue", Helvetica, "Segoe UI", Arial, freesans, sans-serif; line-height: 1.6; word-wrap: break-word; padding: 30px; font-size: 16px; color: rgb(51, 51, 51); overflow: scroll; background-color: rgb(255, 255, 255); }
+.markdown-preview[data-use-github-style] > :first-child { margin-top: 0px !important; }
+.markdown-preview[data-use-github-style] > :last-child { margin-bottom: 0px !important; }
+.markdown-preview[data-use-github-style] a:not([href]) { color: inherit; text-decoration: none; }
+.markdown-preview[data-use-github-style] .absent { color: rgb(204, 0, 0); }
+.markdown-preview[data-use-github-style] .anchor { position: absolute; top: 0px; left: 0px; display: block; padding-right: 6px; padding-left: 30px; margin-left: -30px; }
+.markdown-preview[data-use-github-style] .anchor:focus { outline: none; }
+.markdown-preview[data-use-github-style] h1, .markdown-preview[data-use-github-style] h2, .markdown-preview[data-use-github-style] h3, .markdown-preview[data-use-github-style] h4, .markdown-preview[data-use-github-style] h5, .markdown-preview[data-use-github-style] h6 { position: relative; margin-top: 1em; margin-bottom: 16px; font-weight: bold; line-height: 1.4; }
+.markdown-preview[data-use-github-style] h1 .octicon-link, .markdown-preview[data-use-github-style] h2 .octicon-link, .markdown-preview[data-use-github-style] h3 .octicon-link, .markdown-preview[data-use-github-style] h4 .octicon-link, .markdown-preview[data-use-github-style] h5 .octicon-link, .markdown-preview[data-use-github-style] h6 .octicon-link { display: none; color: rgb(0, 0, 0); vertical-align: middle; }
+.markdown-preview[data-use-github-style] h1:hover .anchor, .markdown-preview[data-use-github-style] h2:hover .anchor, .markdown-preview[data-use-github-style] h3:hover .anchor, .markdown-preview[data-use-github-style] h4:hover .anchor, .markdown-preview[data-use-github-style] h5:hover .anchor, .markdown-preview[data-use-github-style] h6:hover .anchor { padding-left: 8px; margin-left: -30px; text-decoration: none; }
+.markdown-preview[data-use-github-style] h1:hover .anchor .octicon-link, .markdown-preview[data-use-github-style] h2:hover .anchor .octicon-link, .markdown-preview[data-use-github-style] h3:hover .anchor .octicon-link, .markdown-preview[data-use-github-style] h4:hover .anchor .octicon-link, .markdown-preview[data-use-github-style] h5:hover .anchor .octicon-link, .markdown-preview[data-use-github-style] h6:hover .anchor .octicon-link { display: inline-block; }
+.markdown-preview[data-use-github-style] h1 tt, .markdown-preview[data-use-github-style] h2 tt, .markdown-preview[data-use-github-style] h3 tt, .markdown-preview[data-use-github-style] h4 tt, .markdown-preview[data-use-github-style] h5 tt, .markdown-preview[data-use-github-style] h6 tt, .markdown-preview[data-use-github-style] h1 code, .markdown-preview[data-use-github-style] h2 code, .markdown-preview[data-use-github-style] h3 code, .markdown-preview[data-use-github-style] h4 code, .markdown-preview[data-use-github-style] h5 code, .markdown-preview[data-use-github-style] h6 code { font-size: inherit; }
+.markdown-preview[data-use-github-style] h1 { padding-bottom: 0.3em; font-size: 2.25em; line-height: 1.2; border-bottom: 1px solid rgb(238, 238, 238); }
+.markdown-preview[data-use-github-style] h1 .anchor { line-height: 1; }
+.markdown-preview[data-use-github-style] h2 { padding-bottom: 0.3em; font-size: 1.75em; line-height: 1.225; border-bottom: 1px solid rgb(238, 238, 238); }
+.markdown-preview[data-use-github-style] h2 .anchor { line-height: 1; }
+.markdown-preview[data-use-github-style] h3 { font-size: 1.5em; line-height: 1.43; }
+.markdown-preview[data-use-github-style] h3 .anchor { line-height: 1.2; }
+.markdown-preview[data-use-github-style] h4 { font-size: 1.25em; }
+.markdown-preview[data-use-github-style] h4 .anchor { line-height: 1.2; }
+.markdown-preview[data-use-github-style] h5 { font-size: 1em; }
+.markdown-preview[data-use-github-style] h5 .anchor { line-height: 1.1; }
+.markdown-preview[data-use-github-style] h6 { font-size: 1em; color: rgb(119, 119, 119); }
+.markdown-preview[data-use-github-style] h6 .anchor { line-height: 1.1; }
+.markdown-preview[data-use-github-style] p, .markdown-preview[data-use-github-style] blockquote, .markdown-preview[data-use-github-style] ul, .markdown-preview[data-use-github-style] ol, .markdown-preview[data-use-github-style] dl, .markdown-preview[data-use-github-style] table, .markdown-preview[data-use-github-style] pre { margin-top: 0px; margin-bottom: 16px; }
+.markdown-preview[data-use-github-style] hr { height: 4px; padding: 0px; margin: 16px 0px; border: 0px none; background-color: rgb(231, 231, 231); }
+.markdown-preview[data-use-github-style] ul, .markdown-preview[data-use-github-style] ol { padding-left: 2em; }
+.markdown-preview[data-use-github-style] ul.no-list, .markdown-preview[data-use-github-style] ol.no-list { padding: 0px; list-style-type: none; }
+.markdown-preview[data-use-github-style] ul ul, .markdown-preview[data-use-github-style] ul ol, .markdown-preview[data-use-github-style] ol ol, .markdown-preview[data-use-github-style] ol ul { margin-top: 0px; margin-bottom: 0px; }
+.markdown-preview[data-use-github-style] li > p { margin-top: 16px; }
+.markdown-preview[data-use-github-style] dl { padding: 0px; }
+.markdown-preview[data-use-github-style] dl dt { padding: 0px; margin-top: 16px; font-size: 1em; font-style: italic; font-weight: bold; }
+.markdown-preview[data-use-github-style] dl dd { padding: 0px 16px; margin-bottom: 16px; }
+.markdown-preview[data-use-github-style] blockquote { padding: 0px 15px; color: rgb(119, 119, 119); border-left: 4px solid rgb(221, 221, 221); }
+.markdown-preview[data-use-github-style] blockquote > :first-child { margin-top: 0px; }
+.markdown-preview[data-use-github-style] blockquote > :last-child { margin-bottom: 0px; }
+.markdown-preview[data-use-github-style] table { display: block; width: 100%; overflow: auto; word-break: keep-all; }
+.markdown-preview[data-use-github-style] table th { font-weight: bold; }
+.markdown-preview[data-use-github-style] table th, .markdown-preview[data-use-github-style] table td { padding: 6px 13px; border: 1px solid rgb(221, 221, 221); }
+.markdown-preview[data-use-github-style] table tr { border-top: 1px solid rgb(204, 204, 204); background-color: rgb(255, 255, 255); }
+.markdown-preview[data-use-github-style] table tr:nth-child(2n) { background-color: rgb(248, 248, 248); }
+.markdown-preview[data-use-github-style] img { max-width: 100%; box-sizing: border-box; }
+.markdown-preview[data-use-github-style] .emoji { max-width: none; }
+.markdown-preview[data-use-github-style] span.frame { display: block; overflow: hidden; }
+.markdown-preview[data-use-github-style] span.frame > span { display: block; float: left; width: auto; padding: 7px; margin: 13px 0px 0px; overflow: hidden; border: 1px solid rgb(221, 221, 221); }
+.markdown-preview[data-use-github-style] span.frame span img { display: block; float: left; }
+.markdown-preview[data-use-github-style] span.frame span span { display: block; padding: 5px 0px 0px; clear: both; color: rgb(51, 51, 51); }
+.markdown-preview[data-use-github-style] span.align-center { display: block; overflow: hidden; clear: both; }
+.markdown-preview[data-use-github-style] span.align-center > span { display: block; margin: 13px auto 0px; overflow: hidden; text-align: center; }
+.markdown-preview[data-use-github-style] span.align-center span img { margin: 0px auto; text-align: center; }
+.markdown-preview[data-use-github-style] span.align-right { display: block; overflow: hidden; clear: both; }
+.markdown-preview[data-use-github-style] span.align-right > span { display: block; margin: 13px 0px 0px; overflow: hidden; text-align: right; }
+.markdown-preview[data-use-github-style] span.align-right span img { margin: 0px; text-align: right; }
+.markdown-preview[data-use-github-style] span.float-left { display: block; float: left; margin-right: 13px; overflow: hidden; }
+.markdown-preview[data-use-github-style] span.float-left span { margin: 13px 0px 0px; }
+.markdown-preview[data-use-github-style] span.float-right { display: block; float: right; margin-left: 13px; overflow: hidden; }
+.markdown-preview[data-use-github-style] span.float-right > span { display: block; margin: 13px auto 0px; overflow: hidden; text-align: right; }
+.markdown-preview[data-use-github-style] code, .markdown-preview[data-use-github-style] tt { padding: 0.2em 0px; margin: 0px; font-size: 85%; border-radius: 3px; background-color: rgba(0, 0, 0, 0.0392157); }
+.markdown-preview[data-use-github-style] code::before, .markdown-preview[data-use-github-style] tt::before, .markdown-preview[data-use-github-style] code::after, .markdown-preview[data-use-github-style] tt::after { letter-spacing: -0.2em; content: " "; }
+.markdown-preview[data-use-github-style] code br, .markdown-preview[data-use-github-style] tt br { display: none; }
+.markdown-preview[data-use-github-style] del code { text-decoration: inherit; }
+.markdown-preview[data-use-github-style] pre > code { padding: 0px; margin: 0px; font-size: 100%; word-break: normal; white-space: pre; border: 0px; background: transparent; }
+.markdown-preview[data-use-github-style] .highlight { margin-bottom: 16px; }
+.markdown-preview[data-use-github-style] .highlight pre, .markdown-preview[data-use-github-style] pre { padding: 16px; overflow: auto; font-size: 85%; line-height: 1.45; border-radius: 3px; background-color: rgb(247, 247, 247); }
+.markdown-preview[data-use-github-style] .highlight pre { margin-bottom: 0px; word-break: normal; }
+.markdown-preview[data-use-github-style] pre { word-wrap: normal; }
+.markdown-preview[data-use-github-style] pre code, .markdown-preview[data-use-github-style] pre tt { display: inline; max-width: initial; padding: 0px; margin: 0px; overflow: initial; line-height: inherit; word-wrap: normal; border: 0px; background-color: transparent; }
+.markdown-preview[data-use-github-style] pre code::before, .markdown-preview[data-use-github-style] pre tt::before, .markdown-preview[data-use-github-style] pre code::after, .markdown-preview[data-use-github-style] pre tt::after { content: normal; }
+.markdown-preview[data-use-github-style] kbd { display: inline-block; padding: 3px 5px; font-size: 11px; line-height: 10px; color: rgb(85, 85, 85); vertical-align: middle; border-width: 1px; border-style: solid; border-color: rgb(204, 204, 204) rgb(204, 204, 204) rgb(187, 187, 187); border-radius: 3px; box-shadow: rgb(187, 187, 187) 0px -1px 0px inset; background-color: rgb(252, 252, 252); }
+.markdown-preview[data-use-github-style] a { color: rgb(51, 122, 183); }
+.markdown-preview[data-use-github-style] code { color: inherit; }
+.markdown-preview[data-use-github-style] pre.editor-colors { padding: 0.8em 1em; margin-bottom: 1em; font-size: 0.85em; border-radius: 4px; overflow: auto; }
+.scrollbars-visible-always .markdown-preview pre.editor-colors .vertical-scrollbar, .scrollbars-visible-always .markdown-preview pre.editor-colors .horizontal-scrollbar { visibility: hidden; }
+.scrollbars-visible-always .markdown-preview pre.editor-colors:hover .vertical-scrollbar, .scrollbars-visible-always .markdown-preview pre.editor-colors:hover .horizontal-scrollbar { visibility: visible; }
+.markdown-preview .task-list-item-checkbox { position: absolute; margin: 0.25em 0px 0px -1.4em; }
+.markdown-themeable-pdf-page-break {
+  border-top: 2px dotted #0098ff;
+}
+.markdown-themeable-pdf-page-break span {
+  opacity: .35;
+}
+
+.bracket-matcher .region {
+  border-bottom: 1px dotted lime;
+  position: absolute;
+}
+
+.spell-check-misspelling .region {
+  border-bottom: 2px dotted rgba(255, 51, 51, 0.75);
+}
+.spell-check-corrections {
+  width: 25em !important;
+}
+
+pre.editor-colors {
+  background-color: #282c34;
+  color: #abb2bf;
+}
+pre.editor-colors .line.cursor-line {
+  background-color: rgba(153, 187, 255, 0.04);
+}
+pre.editor-colors .invisible {
+  color: #abb2bf;
+}
+pre.editor-colors .cursor {
+  border-left: 2px solid #528bff;
+}
+pre.editor-colors .selection .region {
+  background-color: #3e4451;
+}
+pre.editor-colors .bracket-matcher .region {
+  border-bottom: 1px solid #528bff;
+  box-sizing: border-box;
+}
+pre.editor-colors .invisible-character {
+  color: rgba(171, 178, 191, 0.15);
+}
+pre.editor-colors .indent-guide {
+  color: rgba(171, 178, 191, 0.15);
+}
+pre.editor-colors .wrap-guide {
+  background-color: rgba(171, 178, 191, 0.15);
+}
+pre.editor-colors .find-result .region.region.region,
+pre.editor-colors .current-result .region.region.region {
+  border-radius: 2px;
+  background-color: rgba(82, 139, 255, 0.24);
+  transition: border-color 0.4s;
+}
+pre.editor-colors .find-result .region.region.region {
+  border: 2px solid transparent;
+}
+pre.editor-colors .current-result .region.region.region {
+  border: 2px solid #528bff;
+  transition-duration: .1s;
+}
+pre.editor-colors .gutter .line-number {
+  color: #636d83;
+  -webkit-font-smoothing: antialiased;
+}
+pre.editor-colors .gutter .line-number.cursor-line {
+  color: #abb2bf;
+  background-color: #2c313a;
+}
+pre.editor-colors .gutter .line-number.cursor-line-no-selection {
+  background-color: transparent;
+}
+pre.editor-colors .gutter .line-number .icon-right {
+  color: #abb2bf;
+}
+pre.editor-colors .gutter:not(.git-diff-icon) .line-number.git-line-removed.git-line-removed::before {
+  bottom: -3px;
+}
+pre.editor-colors .gutter:not(.git-diff-icon) .line-number.git-line-removed::after {
+  content: "";
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  width: 25px;
+  border-bottom: 1px dotted rgba(224, 82, 82, 0.5);
+  pointer-events: none;
+}
+pre.editor-colors .gutter .line-number.folded,
+pre.editor-colors .gutter .line-number:after,
+pre.editor-colors .fold-marker:after {
+  color: #abb2bf;
+}
+.syntax--comment {
+  color: #5c6370;
+  font-style: italic;
+}
+.syntax--comment .syntax--markup.syntax--link {
+  color: #5c6370;
+}
+.syntax--entity.syntax--name.syntax--type {
+  color: #e5c07b;
+}
+.syntax--entity.syntax--other.syntax--inherited-class {
+  color: #98c379;
+}
+.syntax--keyword {
+  color: #c678dd;
+}
+.syntax--keyword.syntax--control {
+  color: #c678dd;
+}
+.syntax--keyword.syntax--operator {
+  color: #abb2bf;
+}
+.syntax--keyword.syntax--other.syntax--special-method {
+  color: #61afef;
+}
+.syntax--keyword.syntax--other.syntax--unit {
+  color: #d19a66;
+}
+.syntax--storage {
+  color: #c678dd;
+}
+.syntax--storage.syntax--type.syntax--annotation,
+.syntax--storage.syntax--type.syntax--primitive {
+  color: #c678dd;
+}
+.syntax--storage.syntax--modifier.syntax--package,
+.syntax--storage.syntax--modifier.syntax--import {
+  color: #abb2bf;
+}
+.syntax--constant {
+  color: #d19a66;
+}
+.syntax--constant.syntax--variable {
+  color: #d19a66;
+}
+.syntax--constant.syntax--character.syntax--escape {
+  color: #56b6c2;
+}
+.syntax--constant.syntax--numeric {
+  color: #d19a66;
+}
+.syntax--constant.syntax--other.syntax--color {
+  color: #56b6c2;
+}
+.syntax--constant.syntax--other.syntax--symbol {
+  color: #56b6c2;
+}
+.syntax--variable {
+  color: #e06c75;
+}
+.syntax--variable.syntax--interpolation {
+  color: #be5046;
+}
+.syntax--variable.syntax--parameter {
+  color: #abb2bf;
+}
+.syntax--string {
+  color: #98c379;
+}
+.syntax--string.syntax--regexp {
+  color: #56b6c2;
+}
+.syntax--string.syntax--regexp .syntax--source.syntax--ruby.syntax--embedded {
+  color: #e5c07b;
+}
+.syntax--string.syntax--other.syntax--link {
+  color: #e06c75;
+}
+.syntax--punctuation.syntax--definition.syntax--comment {
+  color: #5c6370;
+}
+.syntax--punctuation.syntax--definition.syntax--method-parameters,
+.syntax--punctuation.syntax--definition.syntax--function-parameters,
+.syntax--punctuation.syntax--definition.syntax--parameters,
+.syntax--punctuation.syntax--definition.syntax--separator,
+.syntax--punctuation.syntax--definition.syntax--seperator,
+.syntax--punctuation.syntax--definition.syntax--array {
+  color: #abb2bf;
+}
+.syntax--punctuation.syntax--definition.syntax--heading,
+.syntax--punctuation.syntax--definition.syntax--identity {
+  color: #61afef;
+}
+.syntax--punctuation.syntax--definition.syntax--bold {
+  color: #e5c07b;
+  font-weight: bold;
+}
+.syntax--punctuation.syntax--definition.syntax--italic {
+  color: #c678dd;
+  font-style: italic;
+}
+.syntax--punctuation.syntax--section.syntax--embedded {
+  color: #be5046;
+}
+.syntax--punctuation.syntax--section.syntax--method,
+.syntax--punctuation.syntax--section.syntax--class,
+.syntax--punctuation.syntax--section.syntax--inner-class {
+  color: #abb2bf;
+}
+.syntax--support.syntax--class {
+  color: #e5c07b;
+}
+.syntax--support.syntax--type {
+  color: #56b6c2;
+}
+.syntax--support.syntax--function {
+  color: #56b6c2;
+}
+.syntax--support.syntax--function.syntax--any-method {
+  color: #61afef;
+}
+.syntax--entity.syntax--name.syntax--function {
+  color: #61afef;
+}
+.syntax--entity.syntax--name.syntax--class,
+.syntax--entity.syntax--name.syntax--type.syntax--class {
+  color: #e5c07b;
+}
+.syntax--entity.syntax--name.syntax--section {
+  color: #61afef;
+}
+.syntax--entity.syntax--name.syntax--tag {
+  color: #e06c75;
+}
+.syntax--entity.syntax--other.syntax--attribute-name {
+  color: #d19a66;
+}
+.syntax--entity.syntax--other.syntax--attribute-name.syntax--id {
+  color: #61afef;
+}
+.syntax--meta.syntax--class {
+  color: #e5c07b;
+}
+.syntax--meta.syntax--class.syntax--body {
+  color: #abb2bf;
+}
+.syntax--meta.syntax--method-call,
+.syntax--meta.syntax--method {
+  color: #abb2bf;
+}
+.syntax--meta.syntax--definition.syntax--variable {
+  color: #e06c75;
+}
+.syntax--meta.syntax--link {
+  color: #d19a66;
+}
+.syntax--meta.syntax--require {
+  color: #61afef;
+}
+.syntax--meta.syntax--selector {
+  color: #c678dd;
+}
+.syntax--meta.syntax--separator {
+  background-color: #373b41;
+  color: #abb2bf;
+}
+.syntax--meta.syntax--tag {
+  color: #abb2bf;
+}
+.syntax--underline {
+  text-decoration: underline;
+}
+.syntax--none {
+  color: #abb2bf;
+}
+.syntax--invalid.syntax--deprecated {
+  color: #523d14 !important;
+  background-color: #e0c285 !important;
+}
+.syntax--invalid.syntax--illegal {
+  color: #ffffff !important;
+  background-color: #e05252 !important;
+}
+.syntax--markup.syntax--bold {
+  color: #d19a66;
+  font-weight: bold;
+}
+.syntax--markup.syntax--changed {
+  color: #c678dd;
+}
+.syntax--markup.syntax--deleted {
+  color: #e06c75;
+}
+.syntax--markup.syntax--italic {
+  color: #c678dd;
+  font-style: italic;
+}
+.syntax--markup.syntax--heading {
+  color: #e06c75;
+}
+.syntax--markup.syntax--heading .syntax--punctuation.syntax--definition.syntax--heading {
+  color: #61afef;
+}
+.syntax--markup.syntax--link {
+  color: #c678dd;
+}
+.syntax--markup.syntax--inserted {
+  color: #98c379;
+}
+.syntax--markup.syntax--quote {
+  color: #d19a66;
+}
+.syntax--markup.syntax--raw {
+  color: #98c379;
+}
+.syntax--source.syntax--c .syntax--keyword.syntax--operator {
+  color: #c678dd;
+}
+.syntax--source.syntax--cpp .syntax--keyword.syntax--operator {
+  color: #c678dd;
+}
+.syntax--source.syntax--cs .syntax--keyword.syntax--operator {
+  color: #c678dd;
+}
+.syntax--source.syntax--css .syntax--property-name,
+.syntax--source.syntax--css .syntax--property-value {
+  color: #828997;
+}
+.syntax--source.syntax--css .syntax--property-name.syntax--support,
+.syntax--source.syntax--css .syntax--property-value.syntax--support {
+  color: #abb2bf;
+}
+.syntax--source.syntax--gfm .syntax--markup {
+  -webkit-font-smoothing: auto;
+}
+.syntax--source.syntax--gfm .syntax--link .syntax--entity {
+  color: #61afef;
+}
+.syntax--source.syntax--go .syntax--storage.syntax--type.syntax--string {
+  color: #c678dd;
+}
+.syntax--source.syntax--ini .syntax--keyword.syntax--other.syntax--definition.syntax--ini {
+  color: #e06c75;
+}
+.syntax--source.syntax--java .syntax--storage.syntax--modifier.syntax--import {
+  color: #e5c07b;
+}
+.syntax--source.syntax--java .syntax--storage.syntax--type {
+  color: #e5c07b;
+}
+.syntax--source.syntax--java .syntax--keyword.syntax--operator.syntax--instanceof {
+  color: #c678dd;
+}
+.syntax--source.syntax--java-properties .syntax--meta.syntax--key-pair {
+  color: #e06c75;
+}
+.syntax--source.syntax--java-properties .syntax--meta.syntax--key-pair > .syntax--punctuation {
+  color: #abb2bf;
+}
+.syntax--source.syntax--js .syntax--keyword.syntax--operator {
+  color: #56b6c2;
+}
+.syntax--source.syntax--js .syntax--keyword.syntax--operator.syntax--delete,
+.syntax--source.syntax--js .syntax--keyword.syntax--operator.syntax--in,
+.syntax--source.syntax--js .syntax--keyword.syntax--operator.syntax--of,
+.syntax--source.syntax--js .syntax--keyword.syntax--operator.syntax--instanceof,
+.syntax--source.syntax--js .syntax--keyword.syntax--operator.syntax--new,
+.syntax--source.syntax--js .syntax--keyword.syntax--operator.syntax--typeof,
+.syntax--source.syntax--js .syntax--keyword.syntax--operator.syntax--void {
+  color: #c678dd;
+}
+.syntax--source.syntax--json .syntax--meta.syntax--structure.syntax--dictionary.syntax--json > .syntax--string.syntax--quoted.syntax--json {
+  color: #e06c75;
+}
+.syntax--source.syntax--json .syntax--meta.syntax--structure.syntax--dictionary.syntax--json > .syntax--string.syntax--quoted.syntax--json > .syntax--punctuation.syntax--string {
+  color: #e06c75;
+}
+.syntax--source.syntax--json .syntax--meta.syntax--structure.syntax--dictionary.syntax--json > .syntax--value.syntax--json > .syntax--string.syntax--quoted.syntax--json,
+.syntax--source.syntax--json .syntax--meta.syntax--structure.syntax--array.syntax--json > .syntax--value.syntax--json > .syntax--string.syntax--quoted.syntax--json,
+.syntax--source.syntax--json .syntax--meta.syntax--structure.syntax--dictionary.syntax--json > .syntax--value.syntax--json > .syntax--string.syntax--quoted.syntax--json > .syntax--punctuation,
+.syntax--source.syntax--json .syntax--meta.syntax--structure.syntax--array.syntax--json > .syntax--value.syntax--json > .syntax--string.syntax--quoted.syntax--json > .syntax--punctuation {
+  color: #98c379;
+}
+.syntax--source.syntax--json .syntax--meta.syntax--structure.syntax--dictionary.syntax--json > .syntax--constant.syntax--language.syntax--json,
+.syntax--source.syntax--json .syntax--meta.syntax--structure.syntax--array.syntax--json > .syntax--constant.syntax--language.syntax--json {
+  color: #56b6c2;
+}
+.syntax--source.syntax--ruby .syntax--constant.syntax--other.syntax--symbol > .syntax--punctuation {
+  color: inherit;
+}
+.syntax--source.syntax--python .syntax--keyword.syntax--operator.syntax--logical.syntax--python {
+  color: #c678dd;
+}
+.syntax--source.syntax--python .syntax--variable.syntax--parameter {
+  color: #d19a66;
+}
+</style>
+  </head>
+  <body class='markdown-preview' data-use-github-style><h1 id="music-17-hip-hop-course-page-detailed-schedule">Music 17 - Hip Hop, Course Page/Detailed schedule</h1>
+<h2 id="spring-2019">Spring 2019</h2>
+<h3 id="week-1-apr-1-the-prehistory-of-hip-hop-1900-1979">Week 1 (Apr 1) - The Prehistory of Hip Hop -- 1900-1979</h3>
+<p><a href="lectures/lecture1.pdf">lecture slides</a></p>
+<p>This week’s material begins with some basic music theory concepts relevant to the analysis of hip hop, and then traces a number of important predecessors of the hip hop tradition. We will examine the tradition of verbal battling known as “the dozens” and the storytelling form known as “toasts,” which influenced (and continues to influence) many rappers. It’s important to note that the influence is not just folkloric: previous forms of black popular music had integrated elements of the dozens and toasts into musical performance before rap did. Other important influences came from comedy and vaudeville traditions. Alongside the verbal influences we’ll examine the musical building blocks of early rap: the funk of James Brown and the ways in which reggae and disco DJ’s used already existing music to create something new.</p>
+<h4 id="listening-required-">Listening (required)</h4>
+<ol>
+<li><strong><a href="https://www.youtube.com/watch?v=aRSMaKJySlY">Jelly Roll Morton, <em>Dirty Dozens</em>, 1938</a></strong><ul>
+<li><a href="https://www.youtube.com/watch?v=2gTISVAfdtE">Cf. Method Man, <em>Biscuits</em>, 1994</a></li>
+</ul>
+</li>
+<li><a href="https://www.youtube.com/watch?v=cCtbet8Kg48">Bo Diddley, <em>Say Man</em>, 1959</a></li>
+<li><a href="https://www.youtube.com/watch?v=DvMBxlu62c0">Pigmeat Markham, <em>Here Comes the Judge</em>, 1968</a></li>
+<li><strong><a href="https://www.youtube.com/watch?v=Voxp3ckwJZ0">Rudy Ray Moore (as Dolemite), <em>Signifying Monkey</em> bit from Dolemite, 1975</a></strong></li>
+<li><strong><a href="https://www.youtube.com/watch?v=8M5W_3T2Ye4">Last Poets, <em>When the Revolution Comes</em>, 1970</a></strong></li>
+<li><a href="https://www.youtube.com/watch?v=itzy_oKniZc">Lightnin Rod, <em>Sport</em>, 1973</a></li>
+<li><a href="https://www.youtube.com/watch?v=KOiY2WcU9HQ">Parliament, <em>P Funk Wants to Get Funked Up</em>, 1975</a></li>
+<li><strong><a href="https://www.youtube.com/watch?v=vu97ctxg8hk">Dr Alimantando, <em>Best Dressed Chicken in Town</em>, 1978</a></strong></li>
+<li><a href="https://www.youtube.com/watch?v=xO24Tb7XMmo">Big Youth, <em>Can You Keep a Secret</em></a></li>
+<li><a href="https://www.youtube.com/watch?v=fEVnFGnjnGU">James Brown, <em>Give it Up or Turn it Loose</em> (studio), 1970</a> and <a href="https://www.youtube.com/watch?v=dTJEu7Tngaw">live version from 1971</a></li>
+<li>Chic, <a href="https://www.youtube.com/watch?v=Er9xGRolrT4"><em>Good Times</em>, 1979</a></li>
+<li>Eddie Kendricks, <a href="https://www.youtube.com/watch?v=wKTbcoLs5yk"><em>Keep on Truckin</em>, 1973</a>, and <a href="https://www.youtube.com/watch?v=KAURhVqvBzw">Tom Moulton Edit of the same</a></li>
+</ol>
+<h4 id="listening-additional-">Listening (additional)</h4>
+<h4 id="additional">Additional</h4>
+<ol>
+<li><a href="https://www.youtube.com/watch?v=dc4zcFnMlGs">In Living Color, <em>Wheel of Dozens</em>, 1993</a></li>
+<li><a href="http://www.youtube.com/watch?v=SP7lPJW1IAA">Iceberg Slim &quot;Duriella DuFontaine&quot;</a></li>
+<li><a href="https://www.youtube.com/watch?v=W0TkUfc78FM">Lightnin Hopkins &quot;Dirty Dozens&quot;</a></li>
+<li><a href="https://www.youtube.com/watch?v=PB8VzSgV0dA">Lightnin&#39; Rod/Jimi Hendrix &quot;Duriella DuFontaine&quot;</a></li>
+<li><a href="https://www.youtube.com/watch?v=nHcK44J8r7w">Watts Prophets &quot;The Days The Hours&quot;</a></li>
+<li><a href="http://www.youtube.com/watch?v=BVkJ4uQYzSM">Count Machuki and the Sound Dimension &quot;More Scorcha&quot;</a></li>
+<li><a href="https://www.youtube.com/watch?v=EdhoX1Xu6ZI">Gil Scott-Heron &quot;The Bottle&quot;</a></li>
+<li><a href="http://www.youtube.com/watch?v=ilxP8As14dM">Thin Lizzy &quot;Johnny the Fox&quot;</a></li>
+<li><a href="http://www.youtube.com/watch?v=bRyyoQo0qj4">Harlem Underground Band &quot;Cheeba Cheeba&quot;</a></li>
+<li><a href="https://www.youtube.com/watch?v=fI569nw0YUQ">Cheryl Lynn &quot;To Be Real&quot;</a></li>
+<li><a href="https://www.youtube.com/watch?v=pXV1MjYb130">Blowfly &quot;Blowfly&#39;s Rap&quot;</a></li>
+<li><a href="http://www.youtube.com/watch?v=WY-Z6wm6TMQ">Incredible Bongo Band &quot;Apache&quot;</a></li>
+</ol>
+<h4 id="reading-required-">Reading (required)</h4>
+<ol>
+<li>Jeff Chang, Loop 1 Chapters 1–3</li>
+<li><a href="https://ebookcentral.proquest.com/lib/ucsd/reader.action?docID=916032&amp;ppg=147">Wald, Elijah The Dozens: A History of Rap’s Mama New York: Oxford University Press, 2012. Chapter 12 “Rapping, Snapping and Battling” p. 183–200, 221–5</a></li>
+</ol>
+<h4 id="reading-additional-">Reading (additional)</h4>
+<ul>
+<li>Lefever, Harry G. &quot;&quot;Playing the Dozens&quot;: A Mechanism for Social Control.&quot; Phylon (1960-) 42, no. 1 (1981): 73-85.</li>
+<li>Price-Styles, A. (2015). &quot;MC origins: Rap and spoken word poetry.&quot;&quot; In J. Williams (Ed.), <em>The Cambridge Companion to Hip-Hop</em>, (Cambridge Companions to Music, pp. 11-21). Cambridge: Cambridge University Press.</li>
+<li>Neal, Larry. “The Black Arts Movement.” SOS -- Calling All Black People: A Black Arts Movement Reader, edited by John H. Bracey et al., University of Massachusetts Press, 2014, p. 55</li>
+</ul>
+<p>Books about/collections of toasts:</p>
+<ul>
+<li>Bruce Jackson, <em>Get Your Ass in the Water and Swim Like Me</em>, Harvard Univ. Press. 1974.</li>
+<li>Richard Dorson, <em>American Negro Folktales</em>, 1967</li>
+<li>Henry Louis Gates, <em>The Signifying Monkey: A Theory of African-American Literary Criticism</em>, Oxford. 1988</li>
+<li>Lawrence Levine, <em>Black Culture and Black Consciousness: Afro American Folk Thought from Slavery to Freedom</em>, 1977</li>
+</ul>
+<p>Disco:</p>
+<ul>
+<li>McLeod, Ken. &quot;&quot;A Fifth of Beethoven&quot;: Disco, Classical Music, and the Politics of Inclusion.&quot; American Music 24, no. 3 (2006): 347-63.</li>
+<li>Peter Shapiro, <em>Turn the Beat Around: THe Secret History of Disco</em>, Faber and Faber, 2005</li>
+</ul>
+<h2 id="week-two-apr-8-the-beginnings">Week Two (Apr 8): The Beginnings</h2>
+<p><a href="lectures/lecture2.pdf">lecture slides</a></p>
+<p>In the early days of hip hop, it seemed that graffiti was much more likely to enter broader public consciousness as an art form. While some graffiti writers were able to shift to a gallery context, it was much harder to sell early rap. The early performers excelled in a live club context and so songs tended to be long, repetitive and full of humorous and highly topical call and response patterns that didn’t necessarily translate to records so well. It was almost inevitable that the first rap hit (Sugarhill Gang’s <em>Rappers Delight</em>) was a cash-in novelty record made by people outside of the scene. Many of these early songs document the transition from something that was more like a practice of everyday life to a commercial musical form. It’s also important to trace the back and forth influence between the downtown (mostly white, punk rock and artsy) club scene and the block parties and clubs of the Bronx and Brooklyn. In lecture we will watch sections of the film <em>Wild Style</em>, which, while fictional, features many significant players in the early Bronx scene and was shot on location.</p>
+<h3 id="listening">Listening</h3>
+<h4 id="required">Required</h4>
+<ul>
+<li><strong><a href="http://youtu.be/JefH2GF9B2A">Sequence + Spoonie Gee &quot;Monster Jam&quot;</a></strong></li>
+<li><a href="https://www.youtube.com/watch?v=Cy6vuT8E1DQ">Funky 4 + 1 &quot;Rapping and Rocking the House&quot;</a></li>
+<li><strong>Sugarhill Gang &quot;Rappers Delight&quot; <a href="https://www.youtube.com/watch?v=ar7sKNb4UUE">video</a>, <a href="http://youtu.be/rKTUAESacQM">whole song</a></strong></li>
+<li><strong><a href="http://www.youtube.com/watch?v=GtP8yVIrsjE">Spoonie Gee &quot;Spoonin&#39; Rap&quot;</a></strong></li>
+<li><a href="https://www.youtube.com/watch?v=IydP1lUzFWQ">Spoonie Gee/Treacherous Three &quot;New Rap Language&quot;</a></li>
+<li><a href="https://www.youtube.com/watch?v=gXNzMVLqIHg">Grandmaster Flash &quot;Official Adventures of Grandmaster Flash on the Wheels of Steel&quot;</a> (1981)</li>
+<li><strong><a href="http://youtu.be/dhuqTecycQQ">Busy Bee/Kool Moe Dee Battle</a></strong></li>
+<li><strong><a href="https://www.youtube.com/watch?v=gYMkEMCHtJ4">Grandmaster Flash and the Furious Five &quot;The Message&quot;</a></strong></li>
+<li><a href="https://www.youtube.com/watch?v=INW6l9SdDqM">Afrika Bambaataa &quot;Looking for the Perfect Beat&quot;</a></li>
+<li><strong><a href="https://www.youtube.com/watch?v=9J3lwZjHenA">Afrika Bambaataa &quot;Planet Rock&quot;</a></strong></li>
+<li><a href="http://youtu.be/rP37qhOi9cw">Lovebug Starski &quot;Live at the Fever&quot;</a></li>
+<li><a href="http://www.youtube.com/watch?v=9I56Kkxh_os">Ramellzee vs K-Rob &quot;Beat Bop&quot;</a></li>
+</ul>
+<h4 id="additional">Additional</h4>
+<ul>
+<li>Herbie Hancock, <a href="https://www.youtube.com/watch?v=GHhD4PD75zY">Rockit</a>, feat.  DJ Grandmixer D.ST (1984)</li>
+<li><a href="https://www.youtube.com/watch?v=RQkhD-2cWwY">CNS Reports: The FIre Next Door, Bill Moyers report on urban decay in South Bronx. 1977</a></li>
+<li><a href="https://www.youtube.com/watch?v=cr5y0dOiRuk">1989 DMC international DJ competition feat. Bad Boy Bill</a> -- example of competitive virtuoso DJing</li>
+<li><a href="http://youtu.be/jaza0t2R40c">Fatback Band &quot;King Tim III&quot;</a></li>
+<li><a href="http://www.youtube.com/watch?v=_rwpBYQn3S8">Sugarhill Gang &quot;8th Wonder&quot;</a></li>
+<li><a href="http://youtu.be/SVxk9PW62Vk">Funky 4 + 1 &quot;That&#39;s the Joint&quot;</a></li>
+<li><a href="https://www.youtube.com/watch?v=5ZDUEilS5M4">Kurtis Blow &quot;The Breaks&quot;</a></li>
+<li><a href="http://www.youtube.com/watch?v=XOHvOhADAic">Fearless Four &quot;Rockin It&quot;</a></li>
+<li><a href="http://www.youtube.com/watch?v=impcE85nWeU">Younger Generation &quot;We Rap More Mellow&quot; (actually Furious Five)</a></li>
+<li><a href="https://www.youtube.com/watch?v=3M8-eIE-gSw">Sequence &quot;Funk You Up&quot;</a></li>
+<li><a href="http://youtu.be/Hk_DBrjtH0s">Treacherous Three &quot;Feel the Heartbeat&quot;</a></li>
+<li><a href="https://www.youtube.com/watch?v=3M8-eIE-gSw">Afrika Bambaataa &quot;Death Mix&quot;</a></li>
+<li><a href="https://www.youtube.com/watch?v=5qjpSz6DDAk" title="YouTube - Afrika Bambaataa &amp; The Jazzy 5 - Jazzy Sensation (Bronx Version)">Afrika Bambaataa &quot;Jazzy Sensation&quot;</a></li>
+<li><a href="https://www.youtube.com/watch?v=XMVokT5e0zs" title="YouTube - Kraftwerk - Trans-Europe Express">Kraftwerk &quot;Trans Europe Express&quot;</a></li>
+</ul>
+<h3 id="reading">Reading</h3>
+<h4 id="required">Required</h4>
+<ul>
+<li>Chang: Chapters 4–7, 9</li>
+</ul>
+<h4 id="additional">Additional</h4>
+<p>General early hip hop resources:</p>
+<ul>
+<li>Fricke and Ahearn eds. <em>Yes Yes Y’all: The Experience Music Project Oral History Of Hip-Hop’s First Decade</em> Da Capo Press, Cambridge, MA, 2002. Chapter 4 &quot;“And You Don’t Stop: The Scene Matures”&quot;, p135–176</li>
+<li>M. A. Neal and M. Forman eds. <em>That’s The Joint! : The Hip-Hop Studies Reader</em>. Routledge, New York, 2004. Part 1: 5, 6 p41–44, <a href="https://roger.ucsd.edu:443/record=b6224022~S9">here</a></li>
+<li>Hansen, K. (2015). DJs and turntablism. In J. Williams (Ed.), <em>The Cambridge Companion to Hip-Hop</em> (Cambridge Companions to Music, pp. 42-55). Cambridge: Cambridge University Press.</li>
+<li><a href="http://www.jstor.org/stable/10.5149/9781469632766_ewoodzie.5.">Ewoodzie, Joseph C. &quot;South Bronx DJs vs. Other DJs.&quot; In <em>Break Beats in the Bronx: Rediscovering Hip-Hop&#39;s Early Years</em>, 51-78. CHAPEL HILL: University of North Carolina Press, 2017.</a></li>
+</ul>
+<p>1970s NYC and Neoliberalism:  </p>
+<ul>
+<li>Kim Philips Fein, <em>Fear City: New York’s Fiscal Crisis and the Rise of Austerity Politics</em>, Metropolitan Books, 2017</li>
+<li>Camilo José Vergara, <em>The New American Ghetto</em>, Rutgers University Press, 1995</li>
+<li>Alfred McCoy, <em>The Politics of Heroin in Southeast Asia: CIA Complicity in the Global Drug Trade</em>, Lawrence Hill Books, 1972</li>
+<li>David Harvey, <em>A Brief History of Neoliberalism</em>, Oxford University Press, 2007</li>
+</ul>
+<p>Graffiti/vis art:</p>
+<ul>
+<li>Chalfant and Cooper, <em>Subway Art</em> and <em>Spraycan Art</em></li>
+<li>Miller, I. (2015). Hip-hop visual arts. In J. Williams (Ed.), <em>The Cambridge Companion to Hip-Hop</em> (Cambridge Companions to Music, pp. 32-41). Cambridge: Cambridge University Press.</li>
+</ul>
+<h2 id="week-three-consolidation-the-suburbs-apr-15-">Week Three: Consolidation/The Suburbs (Apr 15)</h2>
+<p><a href="lectures/lecture3.pdf">lecture slides</a><br><a href="assignment1.pdf">Writing Assignment #1</a> Due Today at Noon, submit via TritonEd</p>
+<p>After the initial rush of early recordings, rap began to establish a presence within the music business and entertainment culture more generally by the mid 1980s. It’s notable that many figures from this period of consolidation came not from the Bronx but from the suburbs of Long Island and the more suburban areas of Queens. This was partially due to class issues (they had more easy access to mainstream institutions), but also reflected the fact that while the music may have started on the streets it was capable of speaking to and for a broader community. As a result lyrical subject matter and production styles within rap broadened. This week we’ll look at music from the Def Jam juggernaut (which pioneered real crossover success), Eric B and Rakim (who raised the bar in lyrical and musical complexity), a group of classic “answer” records and music by the loosely bohemian and afrocentric Native Tongues collective. The reading from Imani Perry’s book provides and excellent analytical framework for dealing with rap lyrics (and musical technique for that matter).</p>
+<h3 id="listening">Listening</h3>
+<h4 id="required">Required</h4>
+<ul>
+<li><strong><a href="http://www.youtube.com/watch?v=_hN1SKVx31s" title="YouTube - Run DMC - Its Like That (Original)">Run DMC &quot;It&#39;s Like That&quot;</a></strong></li>
+<li><a href="https://www.youtube.com/watch?v=GND7sPNwWko" title="YouTube - RUN-DMC - Rock Box">Run DMC &quot;Rock Box&quot;</a></li>
+<li><a href="https://www.youtube.com/watch?v=VWpUtOwJsf8" title="YouTube - Full Force/UTFO - Roxanne, Roxanne">UTFO &quot;Roxanne Roxanne&quot;</a></li>
+<li><strong><a href="http://www.youtube.com/watch?v=J9IFs13w_JQ" title="YouTube - Roxanne&apos;s Revenge (Original-Street Version)">Roxanne Shante &quot;Roxanne&#39;s Revenge&quot;</a></strong></li>
+<li><a href="https://www.youtube.com/watch?v=qqw2uby0dzc" title="YouTube - LL COOL J,CAN,T LIVE WITHOUT MY RADIO.">LL Cool J &quot;Can&#39;t Live Without My Radio&quot;</a></li>
+<li><a href="http://youtu.be/icBflcYZhpoDi">Doug E Fresh and Slick Rick &quot;La Di Da Di&quot;</a></li>
+<li><a href="https://www.youtube.com/watch?v=b6aAFkP0BGU">Eric B and Rakim &quot;Paid In Full&quot;</a>, <a href="http://www.youtube.com/watch?v=E7t8eoA_1jQ&amp;ob=av2n" title="YouTube - Eric B. &amp; Rakim - Paid In Full">Cold Cut Remix</a></li>
+<li><strong><a href="http://www.youtube.com/watch?v=95gP3m-uBHA" title="YouTube - Eric B. &amp; Rakim - Follow The Leader">Eric B and Rakim &quot;Follow the Leader&quot;</a></strong></li>
+<li><a href="https://www.youtube.com/watch?v=2kdQ4soLcac" title="YouTube - Stetsasonic &quot;Talkin All That Jazz&quot;">Stetsasonic &quot;Talkin All That Jazz&quot;</a></li>
+<li><a href="http://www.youtube.com/watch?v=TdvKAnIlB2Y" title="YouTube - Kool G Rap and DJ Polo = Streets of New York">Kool G Rap &quot;Streets of New York&quot;</a></li>
+<li><a href="https://www.youtube.com/watch?v=P8-9mY-JACM">De La Soul &quot;Me, Myself and I&quot;</a></li>
+<li><strong><a href="https://www.youtube.com/watch?v=HU_4pf8BSQw">A Tribe Called Quest &quot;Bonita Applebum&quot;</a></strong></li>
+<li><a href="http://www.youtube.com/watch?v=K0wVNPWWZIw" title="YouTube - Jungle Brothers- Straight out the Jungle">Jungle Brothers &quot;Straight Out the Jungle&quot;</a></li>
+<li><strong><a href="https://www.youtube.com/watch?v=8Qimg_q7LbQ" title="YouTube - Queen Latifah - Ladies First feat. Monie Love">Queen Latifah/Monie Love &quot;Ladies First&quot;</a></strong></li>
+<li><a href="http://youtu.be/Naf5uJYGoiU">Beastie Boys &quot;Hey Ladies&quot;</a></li>
+</ul>
+<h4 id="additional">Additional</h4>
+<ul>
+<li><a href="http://www.youtube.com/watch?v=iOKMWSR2Aio" title="YouTube - RUN-DMC - Sucker MC&apos;s">Run DMC &quot;Sucker MCs&quot;</a>, <a href="http://www.youtube.com/watch?v=qOhRE4wDK6w" title="YouTube - Run DMC Sucker MCs">TV performance</a> (vs Kool Moe Dee/Special K on &quot;Graffiti Rock&quot;)</li>
+<li><a href="https://www.youtube.com/watch?v=AdMlZxHLM8w">Eric B and Rakim &quot;My Melody&quot;</a></li>
+<li><a href="https://www.youtube.com/watch?v=s_ymxs4P6bA" title="YouTube - Ultramagnetic Mcs - Ego Trippin(Original 12&apos;&apos; Version)">Ultramagnetic MCs &quot;Ego Trippin&quot;</a></li>
+<li><a href="http://www.youtube.com/watch?v=sSoXHUlwraU" title="YouTube - Juice Crew - The Symphony">Juice Crew &quot;The Symphony&quot;</a></li>
+<li><a href="http://www.youtube.com/watch?v=Dzyq4zZrmQ4" title="YouTube - Old School Beats MC Shan - The Bridge">MC Shan &quot;The Bridge&quot;</a></li>
+<li><a href="https://www.youtube.com/watch?v=r0Sy4twXSn0" title="YouTube - krs-one the bridge is over">Boogie Down Productions &quot;The Bridge is Over&quot;</a></li>
+<li><a href="http://www.youtube.com/watch?v=DphkDgAMKqY" title="YouTube - LL Cool J-Rock the Bells">LL Cool J &quot;Rock the Bells&quot;</a></li>
+<li><a href="http://www.youtube.com/watch?v=fHy2hZ3ECHA&amp;ob=av2n" title="YouTube - Jody Watley - Friends ft. Eric B. &amp; Rakim">Jody Watley &quot;Friends&quot;</a></li>
+<li><a href="http://www.youtube.com/watch?v=IaNzrXAUHBk" title="YouTube - Newcleus - Jam On It">Newcleus &quot;Jam On It&quot;</a></li>
+<li><a href="https://www.youtube.com/watch?v=bCjNWmPd0CI">Salt N Pepa &quot;Tramp&quot;</a></li>
+<li><a href="https://www.youtube.com/watch?v=6-JOVXZePQk" title="YouTube - De La Soul - Ring Ring Ring">De La Soul &quot;Ring Ring Ring (Ha Ha Hey)&quot;</a></li>
+<li><a href="https://www.youtube.com/watch?v=zvh3B_MTbGo" title="YouTube - A Tribe Called Quest - Description of a Fool">A Tribe Called Quest &quot;Description of a Fool&quot;</a></li>
+<li><a href="http://www.youtube.com/watch?v=AFGhQSiGHWM" title="YouTube - Jungle Brothers - I&apos;ll House You">Jungle Brothers &quot;I&#39;ll House You&quot;</a></li>
+<li><a href="http://www.youtube.com/watch?v=ZQMVsQW_kjM" title="YouTube - Ed O.G. &amp; Da Bulldogs - Be A Father To Your Child">Ed OG &quot;Be a Father to Your Child&quot;</a></li>
+<li><a href="https://www.youtube.com/watch?v=05pcczvmrjc">JVC Force &quot;Strong Island&quot;</a></li>
+<li><a href="https://www.youtube.com/watch?v=RNRCQ9eagWQ">Main Source &quot;Looking at the Front Door&quot;</a></li>
+</ul>
+<h3 id="reading">Reading</h3>
+<h4 id="required">Required</h4>
+<ul>
+<li>Chang Chapters 8, 10</li>
+<li>Perry, Imani <em>Prophets Of The Hood: Politics And Poetics In Hip Hop</em> Durham: Duke University Press, 2004. Chapter 3 “Stinging Like Tabasco: Structure and Format in Hip Hop Compositions” p58–101</li>
+<li>Rose, Tricia. <em>Black Noise: Rap Music and Black Culture in Contemporary America</em> University Press of New England, 1994 Chap 3 “Soul Sonic Forces” Available <a href="https://roger.ucsd.edu/record=b7177367~S9">here</a></li>
+</ul>
+<h4 id="additional">Additional</h4>
+<p>Politics during Reagan era:</p>
+<ul>
+<li>Malcolm Byrne, <em>Iran-Contra: Reagan&#39;s Scandal and the Unchecked Abuse of Presidential Power,</em> Univserity Press of Kansas, 2014</li>
+<li>John Ehrman, <em>The Eighties: America in the Age of Reagan,</em> Yale University Press, 2005</li>
+</ul>
+<p>1980s Hip Hop:</p>
+<ul>
+<li><em>Wax Poetics Anthology Volume 1</em>. Wax Poetics/Puma, 2007. “Hip Hop’s Building Blocks” p190–197</li>
+<li><a href="http://www.npr.org/sections/microphonecheck/2013/09/11/221440934/marley-marl-on-the-bridge-wars-ll-cool-j-and-discovering-sampling">Marley Marl On the Bridge Wars, LL Cool J and Discovering Sampling</a></li>
+<li><em>Five Percenter Rap: God Hop&#39;s Music, Message, and Black Muslim Mission,</em> by Felicia M. Miyakawa</li>
+</ul>
+<h2 id="week-four-radicals-gangstas-apr-22-">Week Four: Radicals/Gangstas (Apr 22)</h2>
+<p><a href="lectures/lecture4.pdf">lecture slides</a></p>
+<p>While the previous week&#39;s listening represented perhaps the gentler, kinder face of hip hop, American cities in the late 80s were for many dangerous and desperate places. The music began to reflect the growing turmoil through both the rise of &quot;gangsta&quot; rap and a wave of music rooted in a nationalist political radicalism. We&#39;ll look at the roots of gangsta rap in both real gang structures and in popular forms of storytelling (from Hollywood films back to things like the toasts we listened to in week one). To get a better sense of the context of the politicized music of Public Enemy and others we&#39;ll consider the Black Nationalist legacy of Malcolm X (and others) and the powerful influence of the Nation of Islam and its offshoots on hip hop in the 80s and 90s (including some of the music we heard last week). The extract from Mike Davis&#39; City of Quartz gives a sense of the quasi-militarization of Los Angeles during the crack years, while the John Jackson pieces on the additional list provocatively read the mode of expression of much hip hop as religious and sometimes conspiratorial: rather than speaking directly it communicates belief and feeling to people who understand.</p>
+<h3 id="listening">Listening</h3>
+<h4 id="required">Required</h4>
+<ul>
+<li><strong><a href="http://www.youtube.com/watch?v=fcYY6xwwfCE" title="YouTube - KRS-ONE - 9mm Goes Bang">BDP &quot;9mm Goes Bang&quot;</a></strong></li>
+<li><a href="https://www.youtube.com/watch?v=h1vKOchATXs" title="YouTube - Krs One - My Philosophy - 1988?">BDP &quot;My Philosopy&quot;</a></li>
+<li><strong><a href="http://youtu.be/fQc4A-XBzBY">Schoolly D &quot;P.S.K.&quot;</a></strong></li>
+<li><strong><a href="http://youtu.be/izuMg1GGnMc">Ice T &quot;6 in the Mornin&quot;</a></strong></li>
+<li><strong><a href="http://www.youtube.com/watch?v=M_t13-0Joyc" title="YouTube - PUBLIC ENEMY FIGHT THE POWER">Public Enemy &quot;Fight the Power&quot;</a></strong></li>
+<li><a href="http://www.youtube.com/watch?v=9vQaVIoEjOM&amp;ob=av3n" title="YouTube - Public Enemy - Don&apos;t Believe The Hype">Public Enemy &quot;Don&#39;t Believe the Hype&quot;</a></li>
+<li><a href="http://www.youtube.com/watch?v=S5spKWJ9i2Q" title="YouTube - BRAND NUBIAN - WAKE UP (Reprise In The Sunshine) Quality Remastered Sound">Brand Nubian &quot;Wake Up&quot;</a></li>
+<li><strong><a href="https://www.youtube.com/watch?v=5qOpoZXxbBQ" title="YouTube - X-Clan - Heed The Word Of The Brother">X Clan &quot;Heed the Word of the Brother&quot;</a></strong></li>
+<li><a href="http://youtu.be/uher29ZmwaY">Eazy E &quot;Boyz n the Hood&quot;</a></li>
+<li><a href="https://www.youtube.com/watch?v=TMZi25Pq3T8">NWA &quot;Straight Outta Compton&quot;</a></li>
+<li><strong><a href="https://www.youtube.com/watch?v=9jOqOlETcRU" title="YouTube - NWA - Fuck Tha Police [HD]">NWA &quot;Fuck the Police&quot;</a></strong></li>
+<li><a href="http://youtu.be/-SXr6aUFP8U">Dr Dre (feat. Snoop Dogg) &quot;Deep Cover&quot;</a></li>
+<li><a href="http://www.youtube.com/watch?v=QKgsuGurM4I" title="YouTube - Too Short - The Ghetto">Too Short &quot;The Ghetto&quot;</a></li>
+<li><a href="https://www.youtube.com/watch?v=LaCyV8eiRm8" title="YouTube - DJ Quik - Jus Lyke Compton (Uncut)">DJ Quik &quot;Jus Lyke Compton&quot;</a></li>
+<li><a href="http://www.youtube.com/watch?v=IJtHdkyo0hc" title="YouTube - Geto Boys - Mind Playing Tricks On Me (Uncut)">Geto Boys &quot;Mind Playin Tricks on Me&quot;</a></li>
+</ul>
+<h4 id="additional">Additional</h4>
+<ul>
+<li><a href="http://www.youtube.com/watch?v=XxmaYKK2DPc" title="YouTube - Boogie Down Productions-Criminal Minded">BDP &quot;Criminal Minded&quot;</a></li>
+<li><a href="http://www.youtube.com/watch?v=EcKhscio25M" title="YouTube - Public Enemy - 911 (Is A Joke)">Public Enemy &quot;911 is a Joke&quot;</a></li>
+<li><a href="http://youtu.be/LYykNwqj0Bw">Schoolly D &quot;Saturday Night&quot;</a></li>
+<li><a href="http://www.youtube.com/watch?v=v40ainAHkRo" title="YouTube - schoolly d - am i black enough for you??? with lyrics old school rap">Schooly D &quot;Black Enough For You&quot;</a></li>
+<li><a href="http://www.youtube.com/watch?v=KHaOul8gVVc" title="YouTube - N.W.A. Gangsta Gangsta">NWA &quot;Gangsta Gangsta&quot;</a></li>
+<li><a href="http://youtu.be/u31FO_4d9TY">NWA &quot;Express Yourself&quot;</a></li>
+<li><a href="http://www.youtube.com/watch?v=J3nPLoODtGU" title="YouTube - jj fad - supersonic (Video Quality A++)">JJ Fad &quot;Supersonic&quot;</a></li>
+<li><a href="https://www.youtube.com/watch?v=bRHT7BvEq1I" title="YouTube - DJ Quik - Tonight">DJ Quik &quot;Tonight&quot;</a></li>
+<li><a href="http://www.youtube.com/watch?v=8u84d7nY8pQ" title="YouTube - geto boys unedited version damn it feels good to be a gangsta">Geto Boys &quot;Damn It Feels Good to be a Gangster&quot;</a></li>
+<li><a href="https://www.youtube.com/watch?v=UiPbeIXZpD4">The D.O.C. &quot;It&#39;s Funky Enough&quot;</a></li>
+<li><a href="http://www.youtube.com/watch?v=dFieSQHmQT0&amp;ob=av3e" title="YouTube - Del Tha Funkee Homosapien - Mistadobalina (Video Version)">Del &quot;Mista Dobalina&quot;</a></li>
+<li><a href="https://www.youtube.com/watch?v=jJFfMJq5o34">Poor Righteous Teachers &quot;Shakiylah&quot;</a></li>
+</ul>
+<h3 id="reading">Reading</h3>
+<h4 id="required">Required</h4>
+<ul>
+<li>Chang: Chapters 11, 12 and 14</li>
+<li>M. Davis. <em>City of Quartz: Excavating the Future in Los Angeles</em>. Verso, London, new ed, 2006. “The Hammer and the Rock” p265–322 <a href="https://roger.ucsd.edu/record=b6199658~S9">Read here</a></li>
+<li><h4 id="additional">Additional</h4>
+</li>
+<li><p>C. E. Lincoln. <em>The Black Muslims in America</em> 3rd ed Grand Rapids, Mich: W.B. Eerdmans, 1994. Chapters 1 and 2, p1–46</p>
+</li>
+<li>F. M. Miyakawa. <em>Five Percenter Rap: God Hop’s Music, Message, and Black Muslim Mission</em> Bloomington: Indiana University Press, 2005. Chapters 1 and 2 p9–40</li>
+<li>Jackson, John &quot;Conspiracy is the Sincerest Form of Flattery: Hip Hop Aesthetics and Suspicious Spiritualities&quot; in <em>Religion in Hip Hop: Mapping the New Terrain in the US</em> ed. Monica Miller, Anthony Pinn, Bernard Freeman (Bun B) London: Bloomsbury Academic, 2015</li>
+<li>Cross, Brian <em>It’s Not About a Salary…Rap, Race and Resistance in Los Angeles</em>. Verso, 1993. Interviews with: Ice Cube (p204–217), Cypress Hill (p238–248) and<br>DJ Quik (p258–262)</li>
+</ul>
+<h2 id="week-five-controversy">Week Five: Controversy</h2>
+<p><a href="lectures/lecture5.pdf">lecture slides</a></p>
+<p>This week deals with the issues surrounding a number of high profile legal cases that centered on hip hop music in the late 1980s and early 1990s: the obscenity cases involving 2 Live Crew and a number of cases involving sampling and intellectual copyright (again including one featuring 2 Live Crew). We’ll discuss the complicated issues around context and censorship raised by the obscenity cases and the equally complicated relationship between hip hop and music publishing in the age of sampling.</p>
+<h3 id="listening">Listening</h3>
+<h4 id="required">Required</h4>
+<ul>
+<li><strong><a href="http://www.youtube.com/watch?v=u6VTj7LhCtE" title="YouTube - 2 Live Crew - Me So Horny (Uncensored)">2 Live Crew &quot;Me So Horny&quot;</a></strong></li>
+<li><strong><a href="http://www.youtube.com/watch?v=65GQ70Rf_8Y" title="YouTube - Two Live Crew -- Pretty Woman">2 Live Crew &quot;Pretty Woman&quot;</a></strong></li>
+<li><strong><a href="https://www.youtube.com/watch?v=V9pT3Kg_ED4" title="YouTube - Ice Cube - AmeriKKKa&apos;s Most Wanted">Ice Cube &quot;Amerikkka&#39;s Most Wanted&quot;</a></strong></li>
+<li><a href="https://www.youtube.com/watch?v=ggzVm6lkIt4" title="YouTube - Ice Cube - Once Upon A Time In The Projects">Ice Cube &quot;Once Upon A Time in the Projects&quot;</a></li>
+<li><strong><a href="https://www.youtube.com/watch?v=iFwA0UwnuS8" title="YouTube - Ice Cube - Black Korea skit">Ice Cube &quot;Black Korea&quot;</a></strong></li>
+<li><a href="https://www.youtube.com/watch?v=ePPMOiLbAKY">Public Enemy &quot;Welcome to the Terrordome&quot;</a></li>
+<li><a href="http://youtu.be/l1EaF50O-C8">Snoop Dogg &quot;Gin and Juice&quot;</a></li>
+<li><strong><a href="https://www.youtube.com/watch?v=-_u-kWkrNxw">Dr Dre &quot;Nuthin but a G Thang&quot;</a></strong></li>
+</ul>
+<h4 id="additional">Additional</h4>
+<ul>
+<li><a href="http://www.youtube.com/watch?v=mU8H9_YBM3A" title="YouTube - Ice Cube - A Bird In The Hand">Ice Cube &quot;A Bird in the Hand&quot;</a></li>
+<li><a href="https://www.youtube.com/watch?v=3tmu4PW7t_k" title="YouTube - NWA-Niggaz 4 Life-Efil4zaggin">NWA &quot;Niggaz 4 Life&quot;</a></li>
+<li><a href="http://www.youtube.com/watch?v=IbQEI4Wt70w" title="YouTube - Scarface- Seen A Man Die">Scarface &quot;I Seen A Man Die&quot;</a></li>
+<li><a href="http://youtu.be/G1SwN70b0bw">Cypress Hill &quot;Hand on the Pump&quot;</a></li>
+<li><a href="http://www.youtube.com/watch?v=OebqNsNRBtU" title="YouTube - Biz Markie - Alone Again">Biz Markie &quot;Alone Again&quot;</a></li>
+</ul>
+<h3 id="reading">Reading</h3>
+<h4 id="required">Required</h4>
+<ul>
+<li>Chang Chapters 13, 15, 16</li>
+<li>Kimberle Crenshaw <a href="http://bostonreview.net/archives/BR16.6/crenshaw.html" title="Beyond Racism and Misogyny: Black Feminism and 2 Live Crew">&quot;Beyond Racism and Misogyny: Black Feminism and 2 Live Crew&quot;</a></li>
+<li>Henry Louis Gates <a href="http://proquest.umi.com/pqdweb?index=0&amp;did=114563974&amp;SrchMode=2&amp;sid=1&amp;Fmt=12&amp;VInst=PROD&amp;VType=PQD&amp;RQT=309&amp;VName=HNP&amp;TS=1288650667&amp;clientId=48051">&quot;2 Live Crew, Decoded&quot;</a> NY Times Op-Ed in defense of 2 Live Crew, based on his expert witness testimony</li>
+</ul>
+<h4 id="additional">Additional</h4>
+<ul>
+<li><em>Hip Hop and the Law,</em> ed. Bridgewater et al, Carolina Academic Press, 2015</li>
+<li>Henry Louis Gates <a href="http://www.nytimes.com/1990/07/15/opinion/l-the-case-of-2-live-crew-tells-much-about-the-american-psyche-574190.html" title="The Case of 2 Live Crew Tells Much About the American Psyche - New York Times">&quot;The Case of 2 Live Crew Tells Us a Lot About The American Psyche&quot;</a> Letter to the NY Times clarifying the op-ed</li>
+<li>Good newspaper feature from the time <a href="http://www.nytimes.com/1990/10/17/us/obscenity-or-art-trial-on-rap-lyrics-opens.html" title="Obscenity or Art? Trial on Rap Lyrics Opens - New York Times">here</a></li>
+</ul>
+<h2 id="week-six-a-second-golden-age">Week Six: A Second Golden Age</h2>
+<p><a href="lectures/lecture6.pdf">lecture slides</a>
+Paper #2 due today at noon, submit via TritonEd!</p>
+<p>By the early 1990s the thug/conscious dialectic that had framed much late 80s rap was beginning to collapse. We’ll look some at the two exceptional individuals who bridged most factions of hip hop culture: Notorious B.I.G. and Tupac Shakur, but also look at the complex world mapped out by the Wu Tang Clan and some examples of the more complex underground styles that grew alongside the rise in mainstream popularity.</p>
+<h3 id="listening">Listening</h3>
+<h4 id="required">Required</h4>
+<ul>
+<li><strong><a href="https://www.youtube.com/watch?v=7m148vZDwJA" title="YouTube - Wu-Tang Clan-Can It Be All So Simple">Wu Tang Clan &quot;Can It All Be So Simple Then&quot;</a></strong></li>
+<li><a href="https://www.youtube.com/watch?v=h2zgB93KANE" title="YouTube - Ol&apos; Dirty Bastard-Shimmy Shimmy Ya">Old Dirty Bastard &quot;Shimmy Shimmy Ya&quot;</a></li>
+<li><a href="http://www.youtube.com/watch?v=ZiQoVv0FSKQ" title="YouTube - GZA - Liquid Swords">GZA &quot;Liquid Swords&quot;</a></li>
+<li><strong><a href="http://www.youtube.com/watch?v=FiOcVWQY2bc" title="YouTube - Pete Rock &amp; C. L. Smooth &quot;They Reminisce Over You&quot;">Pete Rock and CL Smooth &quot;T.R.O.Y.&quot;</a></strong></li>
+<li><a href="http://www.youtube.com/watch?v=r6zH6uMyU9c" title="YouTube - Freestyle Fellowship ft. Daddy-O - Innercity Boundries">Freestyle Fellowship &quot;Inner City Boundaries&quot;</a></li>
+<li><a href="https://www.youtube.com/watch?v=wPsA3TsK1Uk" title="YouTube - Souls Of Mischief - From 93 Till Infinity (Best Quality)">Souls of Mischief &quot;93 &#39;til inifinity&quot;</a></li>
+<li><a href="https://www.youtube.com/watch?v=jQ-RrGCSa2M">Pharcyde &quot;Runnin&#39;&quot;</a></li>
+<li><a href="https://www.youtube.com/watch?v=OedT8rSE_S0" title="YouTube - 2Pac - Keep Ya Head Up">Tupac &quot;Keep Ya Head Up&quot;</a></li>
+<li><a href="https://www.youtube.com/watch?v=cQZqPi1aHNo">Tupac &quot;Ambitionz Az A Ridah&quot;</a></li>
+<li><a href="https://www.youtube.com/watch?v=hI8A14Qcv68" title="YouTube - Nas NY State of Mind">Nas &quot;NY State of Mind&quot;</a></li>
+<li><strong><a href="http://youtu.be/_JZom_gVfuw">Notorious B.I.G. &quot;Juicy&quot;</a></strong></li>
+<li><strong><a href="https://www.youtube.com/watch?v=ZYb_8MM1tGQ" title="YouTube - 10 crack commandments biggie smalls">Notorious B.I.G. &quot;10 Crack Commandments&quot;</a></strong></li>
+<li><a href="https://www.youtube.com/watch?v=pqbpZvtIQZ0" title="YouTube - Method Man Ft. Mary J. Blige - You&apos;re All I Need">Mary J Blige/Method Man &quot;You&#39;re All I Need&quot;</a></li>
+<li><a href="http://www.youtube.com/watch?v=5clkFgVhmj4" title="YouTube - Lil&apos; Kim Queen Bitch">Lil Kim &quot;Queen Bitch&quot;</a></li>
+<li><a href="https://www.youtube.com/watch?v=yoYZf-lBF_U" title="YouTube - Mobb Deep - Shook Ones Part II (Official Video) Superb Quality">Mobb Deep &quot;Shook Ones pt 2&quot;</a></li>
+<li><strong><a href="http://youtu.be/T6QKqFPRZSA">Lauryn Hill &quot;Doo Wop (That Thing)&quot;</a></strong></li>
+</ul>
+<h4 id="additional">Additional</h4>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=prG2xT9CWgQ">Black Moon &quot;Who Got The Props&quot;</a></li>
+<li><a href="https://www.youtube.com/watch?v=7ADgCeYJMN4">Onyx &quot;Slam&quot;</a></li>
+<li><a href="https://www.youtube.com/watch?v=PBwAxmrE194" title="YouTube - Wu Tang Clan &quot;C.R.E.A.M.&quot;">Wu Tang Clan &quot;C.R.E.A.M.&quot;</a></li>
+<li><a href="https://www.youtube.com/watch?v=PEnwXYJcSZc" title="YouTube - M.E.T.H.O.D. Man (original cut)">Method Man &quot;Method Man&quot;</a></li>
+<li><a href="https://www.youtube.com/watch?v=hhVTTLOmggs" title="YouTube - Raekwon Incarcerated Scarfaces">Raekwon &quot;Incarcerated Scarfaces&quot;</a></li>
+<li><a href="http://www.youtube.com/watch?v=2B5dOCSBBEI" title="YouTube - Jeru The Damaja - Come Clean">Jeru the Damaja &quot;Come Clean&quot;</a></li>
+<li><a href="http://youtu.be/e5PnuIRnJW8">Nas &quot;The World is Yours&quot;</a></li>
+<li><a href="https://www.youtube.com/watch?v=MZCNnDSKJsM">Group Home&quot;Supa Star&quot;</a></li>
+<li><a href="http://www.youtube.com/watch?v=8fNtipp5RLs" title="YouTube - D&apos;Angelo - Devil&apos;s Pie">D&#39;Angelo &quot;Devil&#39;s Pie&quot;</a></li>
+<li><a href="https://www.youtube.com/watch?v=bvCp-N-9JEw" title="YouTube - Mobb Deep - Quiet Storm">Mobb Deep &quot;Quiet Storm&quot;</a></li>
+<li><a href="https://www.youtube.com/watch?v=a-mAK3uB2_0">Pharcyde &quot;Passin&#39; Me By&#39;&quot;</a></li>
+<li><a href="https://www.youtube.com/watch?v=QA4DG804VuI" title="YouTube - The Notorious B.I.G - Party and Bullshit">Notorious B.I.G. &quot;Party and Bullshit&quot;</a></li>
+<li><a href="http://www.youtube.com/watch?v=hJW1h5U6SxM" title="YouTube - Junior M.A.F.I.A. ft. Biggie Smalls - Player&apos;s Anthem">Junior Mafia &quot;Players Anthem&quot;</a></li>
+<li><a href="http://www.youtube.com/watch?v=bs2Se9gxvnA" title="YouTube - Redman - Blow Your Mind">Redman &quot;Blow Your Mind&quot;</a></li>
+<li><a href="https://www.youtube.com/watch?v=NGTtGRgEFIE">Tupac &quot;Me Against the World&quot;</a></li>
+<li><a href="https://www.youtube.com/watch?v=Rx5aVI2zsFE">Black Star (Mos Def and Talib Kweli) &quot;Definition&quot;</a></li>
+</ul>
+<h3 id="reading">Reading</h3>
+<h4 id="required">Required</h4>
+<ul>
+<li>Chang Chapter 18</li>
+<li>Quinn, E. <em>Nuthin’ but a “G” Thang: The Culture And Commerce Of Gangsta Rap</em>. Columbia University Press, New York, 2005. Chapter 8 “Tupac Shakur and the Legacies of Gangsta” p173–192</li>
+<li><a href="http://dreamhamptonarticles.blogspot.com/2010/04/tupac-hellraiser_15.html">hampton, dream &quot;Hellraiser&quot;</a></li>
+</ul>
+<h4 id="additional">Additional</h4>
+<ul>
+<li>W. U. Wimsatt. Bomb the suburbs: graffiti, freight-hopping, race, and the search for hip-hops moral center. Subway and Elevated Press of Chicago, Chicago, IL, 1994. p18–31</li>
+</ul>
+<h2 id="week-seven-the-south">Week Seven: The South</h2>
+<p><a href="lectures/lecture7.pdf">lecture slides</a></p>
+<p>Thus far, we’ve largely concentrated on music from the New York area and California. Though the south may have been later in developing its own styles, by the mid 1990s this was no longer the case. Further the rise of southern hip hop was also marked by a strongly independent business sensibility and connections to older regionally-specific African American musical styles. We’ll look at examples from the main centers: New Orleans (No Limit and Cash Money records), Houston (DJ Screw, UGK), Memphis (8Ball and MJG) and Atlanta (Outkast, Ludacris).</p>
+<h3 id="listening">Listening</h3>
+<h4 id="required">Required</h4>
+<ul>
+<li><strong><a href="https://www.youtube.com/watch?v=h1fBYUWxaKQ">Master P &quot;Make Em Say Unnhhh&quot;</a></strong></li>
+<li><a href="http://www.youtube.com/watch?v=ZHrV51GOPkE&amp;ob=av2n" title="YouTube - Mystikal - Danger (Been So Long) ft. Nivea">Mystikal &quot;Danger&quot;</a></li>
+<li><strong><a href="http://www.youtube.com/watch?v=oDAxtgk5EJw" title="YouTube - DJ Jubilee - Back That (Ass) Thang Up">DJ Jubilee &quot;Back That Thang Up&quot;</a></strong></li>
+<li><strong><a href="http://www.youtube.com/watch?v=Ww9VlmXKYgs&amp;ob=av2e" title="YouTube - Juvenile - Ha">Juvenile &quot;Ha&quot;</a></strong></li>
+<li><a href="https://www.youtube.com/watch?v=2FnRnKHS5ds" title="YouTube - BG - Bling Bling">BG &quot;Bling Bling&quot;</a></li>
+<li><a href="https://www.youtube.com/watch?v=LVH9um7lXhc">8 Ball &amp; MJG &quot;Comin Out Hard&quot;</a></li>
+<li><strong><a href="https://www.youtube.com/watch?v=PWlwzXuK168" title="YouTube - DJ Screw &amp; Fat Pat - Swang Down">DJ Screw &quot;Swang Down&quot; (w/ Fat Pat)</a></strong></li>
+<li><a href="https://www.youtube.com/watch?v=uijHb5U1pD8">UGK &quot;Diamonds and Wood&quot;</a></li>
+<li><a href="https://www.youtube.com/watch?v=gfcNMQpXhMc">DJ DMD feat. Lil&#39; Keke and Fat Pat &quot;25 Lighters&quot;</a></li>
+<li><a href="http://youtu.be/SfPLcQhXpCc">Paul Wall &quot;Sittin Sidewayz&quot;</a></li>
+<li><a href="http://www.youtube.com/watch?v=U61JP4KkFKc&amp;ob=av3e" title="YouTube - David Banner - Cadillac On 22&apos;s">David Banner &quot;Cadillacs on 22s&quot;</a></li>
+<li><a href="https://www.youtube.com/watch?v=OGy4bmG5SJw" title="YouTube - Goodie mob - Cell therapy">Goodie Mob &quot;Cell Therapy&quot;</a></li>
+<li><a href="https://www.youtube.com/watch?v=uqB_UVlhlPA">Outkast &quot;Elevators&quot;</a></li>
+<li><strong><a href="http://www.youtube.com/watch?v=vXmqauitBkM" title="YouTube - Outkast - SpottieOttieDopaliscious">Outkast &quot;SpottieOttieDopaliscious&quot;</a></strong></li>
+<li><a href="http://www.youtube.com/watch?v=2QWQVm9J5DM&amp;ob=av2e" title="YouTube - Ludacris - Southern Hospitality (Uncensored) ft. Pharrell">Ludacris &quot;Southern Hospitality&quot;</a></li>
+<li><a href="https://www.youtube.com/watch?v=DUofIhtJfiI">Trick Daddy &quot;Shut Up&quot;</a></li>
+<li>[<a=href="https: www.youtube.com="" watch?v="s0G9jPaZSKw&quot;">]3 6 Mafia "Tear Da Club Up"</a=href="https:></li>
+</ul>
+<h4 id="additional">Additional</h4>
+<ul>
+<li><a href="http://www.youtube.com/watch?v=psaHLi7-DIs&amp;ob=av2e" title="YouTube - Mystikal - Bouncin&apos; Back (Bumpin&apos; Me Against The Wall)">Mystikal &quot;Bouncin Back&quot;</a></li>
+<li><a href="http://www.youtube.com/watch?v=fozA53bOUJI" title="YouTube - Lil Wayne - Tha Block Is Hot">Lil Wayne &quot;Block is Hot&quot;</a></li>
+<li><a href="http://www.youtube.com/watch?v=1iFMWkP5It4" title="YouTube - Hot Boys - We on fire">Hot Boys &quot;On Fire&quot;</a></li>
+<li><a href="http://youtu.be/0qlF0uzs3Js">Mike Jones &quot;Still Tippin&#39;&quot;</a></li>
+<li><a href="http://www.youtube.com/watch?v=Y5qKNlcUwKs&amp;ob=av3e" title="YouTube - Nelly - Country Grammar (Hot...)">Nelly &quot;Country Grammar&quot;</a></li>
+<li><a href="http://www.youtube.com/watch?v=9PpSn3I0nYk" title="YouTube - Space Age Pimpin [ Video ] Uncensored - Eightball 8ball &amp; MJG">8Ball MJG &quot;Space Age Pimpin&quot;</a></li>
+<li><a href="https://www.youtube.com/watch?v=vFofKGKlWo4">Outkast &quot;Player&#39;s Ball&quot;</a></li>
+<li><a href="https://www.youtube.com/watch?v=gHIqveatztY">JT Money &quot;Who Dat&quot;</a></li>
+<li><a href="https://www.youtube.com/watch?v=drsQLEU0N1Y">Outkast &quot;Rosa Parks&quot;</a></li>
+<li><a href="https://www.youtube.com/watch?v=ryIjCkw3Jfg">Bone Crusher feat. T.I. &amp; Killer Mike &quot;Never Scared&quot;</a></li>
+<li><a href="http://www.youtube.com/watch?v=Jrej0HfjMoE&amp;ob=av2e" title="YouTube - Rich Boy - Boy Looka Here">Rich Boy &quot;Boy Looka Here&quot;</a></li>
+<li><a href="http://www.youtube.com/watch?v=saptqnoWQ8s" title="YouTube - Jackie Chain - Rollin">Jackie Chain etc &quot;Rollin&quot;</a></li>
+<li><a href="http://www.youtube.com/watch?v=awMIbA34MT8" title="YouTube - Int&apos;l Players Anthem (I Choose You)">UGK/Outkast &quot;International Players Anthem (I Choose You)&quot;</a></li>
+</ul>
+<h3 id="reading">Reading</h3>
+<h4 id="required">Required</h4>
+<ul>
+<li>Chang Chapter 19</li>
+<li>Caramanica, Jon <a href="http://www.believermag.com/issues/200606/?read=interview_bun_b">Bun B Interview</a>, <em>The Believer</em> June/July, 2006</li>
+<li>Rose, Tricia. <em>The Hip Hop Wars: What We Talk About When We Talk About Hip Hop–And Why It Matters</em>. BasicCivitas, New York, 2008. Chapter 11</li>
+</ul>
+<h4 id="additional">Additional</h4>
+<ul>
+<li><a href="http://clatl.com/atlanta/the-making-of-outkasts-aquemini/Content?oid=1552576">Outkast on the making of Aquemini</a></li>
+</ul>
+<h2 id="week-eight-the-takeover">Week Eight: The Takeover</h2>
+<p><a href="lectures/lecture8.pdf">lecture slides</a></p>
+<p>In 2004 all of the Billboard #1 songs were by African American artists. This was the high water mark of hip hop culture’s influence over the music business. In looking at how this happened, we’ll think about what it means for both sides when a marginal culture becomes dominant in the mainstream. We’ll also look a number of songs which used “exotic” sample sources and discuss the implications therein.</p>
+<h3 id="listening">Listening</h3>
+<h4 id="required">Required</h4>
+<ul>
+<li><strong><a href="https://www.youtube.com/watch?v=pMCxBlfNkt8" title="YouTube - Feel So Good - Mase">Mase &quot;Feel So Good&quot;</a></strong></li>
+<li><strong><a href="http://www.youtube.com/watch?v=frIA7tuBqqY" title="YouTube - Jay-Z - Jigga What, Jigga Who">Jay Z &quot;Jigga What Jigga Who&quot;</a></strong></li>
+<li><strong><a href="https://www.youtube.com/watch?v=TjWAWcx4xdE">Clipse &quot;Grindin&quot;</a></strong></li>
+<li><a href="http://www.youtube.com/watch?v=gOMhN-hfMtY" title="YouTube - Eminem - Stan (Long Version) ft. Dido">Eminem &quot;Stan&quot;</a></li>
+<li><strong><a href="http://www.youtube.com/watch?v=mQvteoFiMlg&amp;ob=av2e" title="YouTube - Eminem - The Way I Am">Eminem &quot;The Way I Am&quot;</a></strong></li>
+<li><a href="http://www.youtube.com/watch?v=ajmI1P3r1w4&amp;ob=av3e" title="YouTube - Terror Squad - Lean Back ft. Fat Joe, Remy">Terror Squad &quot;Lean Back&quot;</a></li>
+<li><a href="http://www.youtube.com/watch?v=wke0-lj2wzw" title="YouTube - Panjabi MC feat. Jay-Z - Beware">Punjabi Mc/Jay Z &quot;Beware the Boyz&quot;</a></li>
+<li><a href="http://www.youtube.com/watch?v=FPoKiGQzbSQ&amp;ob=av3e" title="YouTube - Missy Elliott - Get Ur Freak On [Video]">Missy &quot;Get Ur Freak On&quot;</a></li>
+<li><a href="https://www.youtube.com/watch?v=oiusDE0KND8" title="YouTube - Dead Prez &quot;Hip Hop&quot;">Dead Prez &quot;Hip Hop&quot;</a></li>
+<li><strong><a href="http://youtu.be/Cgoqrgc_0cM">Jay Z &quot;Big Pimpin&quot;</a></strong></li>
+<li><a href="http://www.youtube.com/watch?v=_GZlJGERbvE&amp;ob=av3n" title="YouTube - Damian Marley - Welcome To Jamrock">Damian Marley &quot;Welcome to Jamrock&quot;</a></li>
+<li><a href="https://www.youtube.com/watch?v=fXvsVSc5UoY">Young Jeezy <em>Go Crazy</em> (w/ Jay-Z)</a></li>
+<li><a href="https://www.youtube.com/watch?v=UY6mr9fO-9M">T.I. <em>Live Your Life</em> w/ Rhianna</a></li>
+</ul>
+<h4 id="additional">Additional</h4>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=31xa0CLbcls" title="YouTube - Jay-Z f/ DMX &quot;Money, Cash, Hoes&quot; Uncut Uncensored Video CDP mix">Jay Z &quot;Money Cash Hoes&quot;</a></li>
+<li><a href="http://www.youtube.com/watch?v=ThlhSnRk21E&amp;ob=av3e" title="YouTube - DMX - Ruff Ryders&apos; Anthem">Dmx &quot;Ruff Ryder&#39;s Anthem&quot;</a></li>
+<li><a href="http://youtu.be/TWLMrUcMZuo">Noreaga &quot;Superthug&quot;</a></li>
+<li><a href="https://www.youtube.com/watch?v=vOxWfRrb2Sk">Black Rob &quot;Whoa&quot;</a></li>
+<li><a href="http://www.youtube.com/watch?v=sNPnbI1arSE" title="YouTube - Eminem - My Name Is">Eminem &quot;My Name Is&quot;</a></li>
+<li><a href="http://www.youtube.com/watch?v=8kyWDhB_QeI&amp;ob=av2e" title="YouTube - All Falls Down (MTV Version)">Kanye &quot;All Falls Down&quot;</a></li>
+<li><a href="http://www.youtube.com/watch?v=elVF7oG0pQs&amp;ob=av3e" title="YouTube - Kanye West - Heard &apos;Em Say ft. Adam Levine">Kanye &quot;Heard Em Say&quot;</a></li>
+<li><a href="http://www.youtube.com/watch?v=gKw5mBh4rYs" title="YouTube - ODB - Baby, I got your money [*original uncencored video*]">ODB &quot;Got Your Money&quot;</a></li>
+<li><a href="http://www.youtube.com/watch?v=X8l_0N8lLWY&amp;ob=av3e" title="YouTube - Lighters Up (Video) Amended Album Version with shut up bitch">Lil Kim &quot;Lighters up&quot;</a></li>
+<li><a href="http://www.youtube.com/watch?v=jytxkJUM_7U" title="YouTube - Madvillain - America&apos;s Most Blunted">Madvillain &quot;America&#39;s Most Blunted&quot;</a></li>
+<li><a href="http://www.youtube.com/watch?v=0-cpL--0AQA&amp;ob=av2n" title="YouTube - Jadakiss - Why (Uncut Version) ft. Anthony Hamilton">Jadakiss &quot;Why&quot;</a></li>
+<li><a href="http://www.youtube.com/watch?v=FAnGnevKxJE" title="YouTube - jay-z the take over">Jay Z &quot;Takeover&quot;</a></li>
+<li><a href="http://www.youtube.com/watch?v=9GvB9ySUJ3A&amp;ob=av3e" title="YouTube - Cam&apos;Ron - Oh Boy ft. Juelz Santana">Cam&#39;ron &quot;Oh Boy&quot;</a></li>
+</ul>
+<h3 id="reading">Reading</h3>
+<h4 id="required">Required</h4>
+<ul>
+<li>Tate, Greg &quot;Hip Hop Turns 30&quot; from <em>Flyboy 2: The Greg Tate Reader</em> Durham: Duke University Press, 2016</li>
+<li>Kitwana, Bakari <em>Why White Kids Love Hip-Hop: Wankstas, Wiggers, Wannabes, And The New Reality Of Race In America</em>. Basic Civitas Books, New York, 2005. Chapter 3 “Erasing Blackness: Are White Suburban Kids Really Hip-Hop’s Primary Audience” p81–106</li>
+<li>Chris Molanphy &quot;I Know You Got Soul: The Trouble with Billboard&#39;s R&amp;B/Hip-Hop Chart&quot; <a href="http://pitchfork.com/features/articles/9378-i-know-you-got-soul-the-trouble-with-billboards-rbhip-hop-chart/">Pitchfork</a></li>
+</ul>
+<h4 id="additional">Additional</h4>
+<ul>
+<li>M. A. Neal and M. Forman eds. <em>That’s the joint!: The Hip-Hop Studies Reader</em> Routledge, New York, 2004. Part 2: 12 Robin Kelley “Looking for the ”Real“ Nigga: Social Scientists Construct the Ghetto” p119–136</li>
+</ul>
+<h2 id="week-ten-whose-music-">Week Ten: Whose Music?</h2>
+<p><a href="lectures/week10.pdf">lecture slides</a></p>
+<p>Not long after the triumphs of 2004, the music business more or less
+collapsed. What happened to hip hop in the wake of this collapse? Did
+its marginal roots protect and sustain it, or contribute to an
+increasing marginalization? We’ll look at the renewed importance of mix
+tapes, the decline of radio, dance crazes, hyper local scenes and the
+influence of the internet. Musically, we’ll consider the increasing
+influence of dance music production and the expansion of vocal styles.
+The readings this week are a selection of shorter popular press pieces
+and news stories that focus on currently contested topics: the
+continuing controversies about gang-focused music by the likes of Chief
+Keef; how changes in the Billboard charts have been bad for rap and R&amp;B
+and the trend of prosecutors using rap lyrics as evidence against
+criminal defendants.</p>
+<h3 id="listening">Listening</h3>
+<h4 id="required">Required</h4>
+<ul>
+<li><strong><a href="https://www.youtube.com/watch?v=n2MVzP4MaJ0">Rick Ross w/ Styles P
+<em>BMF</em></a></strong></li>
+<li><a href="https://www.youtube.com/watch?v=7D7zdMf0Jes">Waka Flocka <em>Hard In Da
+Paint</em></a></li>
+<li><strong><a href="https://www.youtube.com/watch?v=6g5ZF6DUrHI">Chief Keef <em>Don’t
+Like</em></a></strong></li>
+<li><strong><a href="https://www.youtube.com/watch?v=5OAYMMod9Wo">Vince Staples
+&quot;Senorita&quot;</a></strong></li>
+<li><a href="https://www.youtube.com/watch?v=2GZbaXdK8Js">E40 <em>Tell Me When To
+Go</em></a></li>
+<li><a href="https://www.youtube.com/watch?v=X8LUd51IuiA">Sage the Gemini &quot;Gas
+Pedal&quot;</a></li>
+<li><strong><a href="https://www.youtube.com/watch?v=pmEk0ZMhva4">Kanye West <em>Monster</em></a></strong></li>
+<li><a href="https://www.youtube.com/watch?v=I8IhkhLvvho">Future &quot;March
+Madness&quot;</a></li>
+<li><a href="https://www.youtube.com/watch?v=1VUa99-tJqs">Migos “T Shirt”</a></li>
+<li><a href="https://www.youtube.com/watch?v=nGt_JGHYEO4">Rich Gang &quot;Lifestyle’</a></li>
+<li><a href="https://www.youtube.com/watch?v=ob3ktDxAjWI">ASAP Rocky <em>Peso</em></a></li>
+<li><strong><a href="https://www.youtube.com/watch?v=nwyjxsOYnys">Drake <em>Marvin’s Room</em></a></strong></li>
+<li><a href="https://www.youtube.com/watch?v=vcer12OFU2g">Drake “One Dance”</a></li>
+<li><a href="https://www.youtube.com/watch?v=fLG10604Cig">Kendrick Lamar &quot;The Blacker the
+Berry&quot;</a></li>
+<li><strong><a href="https://www.youtube.com/watch?v=jdbQYDkNjfk">Kendrick Lamar “Fear”</a></strong></li>
+<li><a href="https://www.youtube.com/watch?v=tZ5Mu2gs-M8">Earl Sweatshirt
+&quot;Grief&quot;</a></li>
+<li><a href="https://www.youtube.com/watch?v=Nrnq4SZ0luc">L3if <em>Wut</em></a></li>
+</ul>
+<h4 id="additional">Additional</h4>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=8UFIYGkROII">Soulja Boy <em>Crank
+Dat</em></a></li>
+<li><a href="https://www.youtube.com/watch?v=U6z_cilnJzg">T.I. <em>Why You Wanna</em></a></li>
+<li><a href="https://www.youtube.com/watch?v=g-iC-irllqY">E40 <em>Function</em></a></li>
+<li><a href="https://www.youtube.com/watch?v=JU9TouRnO84">Rick Ross <em>Hustlin</em></a></li>
+<li><a href="https://www.youtube.com/watch?v=GwamhuY6Yy8">Kendrick Lamar <em>Cartoon And
+Cereal</em></a></li>
+<li><a href="https://www.youtube.com/watch?v=L9G8aN4YZQU">Keak Da Sneak <em>Super
+Hyphy</em></a></li>
+<li><a href="https://www.youtube.com/watch?v=RubBzkZzpUA">Drake <em>Started From The
+Bottom</em></a></li>
+<li><a href="https://www.youtube.com/watch?v=FCbWLSZrZfw">Earl Sweatshirt
+<em>Chum</em></a></li>
+<li><a href="https://www.youtube.com/watch?v=-KKbdErJkiY">Rich Homie Quan <em>Type Of
+Way</em></a></li>
+<li><a href="https://www.youtube.com/watch?v=5-0kZ_jeIHI">Young Thug <em>Stoner</em></a></li>
+<li><a href="https://www.youtube.com/watch?v=rF-hq_CHNH0">Migos <em>Versace</em></a></li>
+<li><a href="https://www.youtube.com/watch?v=bigsk2g7xO8">Chance The Rapper <em>Chain
+Smoker</em></a></li>
+<li><a href="https://www.youtube.com/watch?v=TdHd-8vol70">DJ Rashad <em>Double
+Cup</em></a></li>
+<li><a href="https://www.youtube.com/watch?v=q604eed4ad0">Kanye West <em>Black
+Skinhead</em></a></li>
+<li><a href="https://www.youtube.com/watch?v=sokeAMDm7mk">Mykki Blanco <em>Wavvy</em></a></li>
+</ul>
+<h3 id="reading">Reading</h3>
+<h4 id="required">Required</h4>
+<ul>
+<li>R. Cepeda. <em>And It Don’t Stop: The Best American Hip-Hop Journalism
+Of The Last 25 Years</em>. Faber and Faber, New York, 1st ed edition,
+2004.
+Ta-Nehisi Coates “Keepin it Unreal” p310–318</li>
+<li>Andrew Nosnitsky &quot;Hashtags and Heartbreak: Iamsu!, Sage the Gemini
+and the Bay Area&#39;s New Rap
+Revolution&quot; <a href="http://www.spin.com/2014/03/bay-area-rap-revolution-hbk-gang-iamsu/">Spin</a></li>
+<li>Erik Nielson and Michael Render (Killer Mike) &quot;Rap&#39;s Poetic
+(In)justice&quot; <a href="http://www.usatoday.com/story/opinion/2014/11/28/poetic-injustice-rap-supreme-court-lyrics-violence-trial-column/19537391/">USA Today</a></li>
+<li>Dave Bry &quot;Is it OK for White Music Critics to Like Violent Rap?&quot;
+<a href="http://www.newrepublic.com/article/111702/chief-keef-finally-rich-review-debate-race-critics">New
+Republic</a></li>
+</ul>
+<h4 id="additional">Additional</h4>
+<ul>
+<li>Ogbar, Jeffrey <em>Hip-Hop Revolution: The Culture And Politics Of Rap</em>
+Lawrence: University Press of Kansas, , 2007. “The Minstrel Reprise:
+Hip-Hop and the Evolution of the Black Image in American Popular
+Culture” p9–36, 184–7</li>
+</ul>
+<p></p></body>
+</html>
+
