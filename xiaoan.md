@@ -1,7 +1,7 @@
 Introduction to American Popular Music
 ======================================
 
-(Private lessons for Xiao An) {#-private-lessons-for-xiao-an-}
+(Private lessons for Xiao An)
 -----------------------------
 
 Instructor: Asher Tobin Chodos -- [email](mailto:tobin.chodos@gmail.com)
@@ -202,6 +202,23 @@ Listening:
 2.  [Mamie Smith, Crazy Blues](https://www.youtube.com/watch?v=OiJrBgbwsJw)
 3.  [Robert Johnson, Hellhound on my Tail](https://www.youtube.com/watch?v=OHAIgpih86E)
 4.  [Gershwin, Embraceable You](https://www.youtube.com/watch?v=A5TrNfV5mXE)
+7. [George Cohan, Over There](https://www.youtube.com/watch?v=yGsVguiM5ao&t=1m12s)
 5. [Jerome Kern, Can't Stop Lovin' That Man of Mine](https://www.youtube.com/watch?v=vPR3X9AjhaU)
 6. [Charlie Parker, Blues for Alice](https://www.youtube.com/watch?v=Upk3QiESOfU)
 7. [Thelonious Monk, Blue Monk](https://www.youtube.com/watch?v=_40V2lcxM7k)
+8. [Miles Davis, Oleo](https://www.youtube.com/watch?v=9IY29EZb1pI)
+9. [Ronnetes, Be My Baby](https://www.youtube.com/watch?v=gG7UXv8Zc5Q)
+10. [Bill Haley, Shake, Rattle and Roll](https://www.youtube.com/watch?v=8B7xr_EjbzE)
+11. [Chuck Berry, Johnny Be Good](https://www.youtube.com/watch?v=6ROwVrF0Ceg)
+12. [The Beatles, I Wanna Hold Your Hand](https://www.youtube.com/watch?v=jenWdylTtzs)
+13. [The Beach Boys, God Only Knows](https://www.youtube.com/watch?v=CWPo5SC3zik)
+14. [Jimi Hendrix, Purple Haze](https://www.youtube.com/watch?v=WGoDaYjdfSg)
+15. [Jimmie Rodgers, Mule Skinner Blues](https://www.youtube.com/watch?v=WGoDaYjdfSg)
+16. [Emmet Miller, Lovesick Blues](https://www.youtube.com/watch?v=otNICva63mQ)
+17. [Willie Nelson, On the Road Again](https://www.youtube.com/watch?v=dBN86y30Ufc)
+1. [Grandmaster Flash, The Message](https://www.youtube.com/watch?v=PobrSpMwKk4)
+2. [Afrikaa Baambataa, Planet Rock](https://www.youtube.com/watch?v=9J3lwZjHenA)
+3. [Sugar Hill Gang, Rapper's Delight](https://www.youtube.com/watch?v=mcCK99wHrk0)
+4. [NWA, Straight Outta Compton](https://www.youtube.com/watch?v=9OJStAZz1bc)
+5. [Erik B and Rakim, Follow the Leader](https://www.youtube.com/watch?v=95gP3m-uBHA)
+6. [Lauryn Hill, Ready or Not](https://www.youtube.com/watch?v=aIXyKmElvv8)
