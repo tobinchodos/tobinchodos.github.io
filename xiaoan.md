@@ -188,6 +188,8 @@ Listening:
 
 ### Week 7 - Hip Hop[]{#weekseven}
 
+[lecture slides](hip hop.pdf)
+
 Listening:
 1. [Grandmaster Flash, The Message](https://www.youtube.com/watch?v=PobrSpMwKk4)
 2. [Afrikaa Baambataa, Planet Rock](https://www.youtube.com/watch?v=9J3lwZjHenA)
