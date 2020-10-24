@@ -22,6 +22,14 @@ you choose to go in that direction.
 
 [final paper prompt](final paper.pdf)
 
+Final Schedule:
+
+10-23 -- Hip Hop, final paper assigned
+
+10-30 -- Brief "check-in," discuss Metal (not on the exam)
+
+11-6 -- Final Paper DUE, Final Exam takes place (on Voov)
+
 ### Course Overview
 
 #### [Week 1](#weekone) - The Blues {#-week-1-weekone-the-blues}
