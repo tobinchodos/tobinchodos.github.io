@@ -20,6 +20,8 @@ you choose to go in that direction.
 ### Readings in preparation for the paper assignment:
 [Billboard Charts](billboard charts.pdf)
 
+[final paper prompt](final paper.pdf)
+
 ### Course Overview
 
 #### [Week 1](#weekone) - The Blues {#-week-1-weekone-the-blues}
